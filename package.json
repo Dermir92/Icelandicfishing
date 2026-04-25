@@ -1,0 +1,33 @@
+{
+  "name": "veidistadur",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "import:spots": "tsx scripts/import-fishing-spots.ts"
+  },
+  "dependencies": {
+    "clsx": "latest",
+    "leaflet": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-leaflet": "latest",
+    "tailwind-merge": "latest"
+  },
+  "devDependencies": {
+    "@types/leaflet": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "3.4.17",
+    "tsx": "^4.21.0",
+    "typescript": "latest"
+  }
+}

@@ -1,0 +1,36 @@
+[browser] ./node_modules/leaflet/dist/leaflet.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Danni\Desktop\Repos\Veiðistaðir Ísland\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:74:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:104:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/leaflet/dist/leaflet.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/Danni/Desktop/Repos/Veiðistaðir Ísland/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2773:21)
+    at processMessage (file://C:/Users/Danni/Desktop/Repos/Veiðistaðir Ísland/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2834:28)
+    at <unknown> (file://C:/Users/Danni/Desktop/Repos/Veiðistaðir Ísland/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2679:13)
+    at WebSocket.handleMessage (file://C:/Users/Danni/Desktop/Repos/Veiðistaðir Ísland/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2324:17) (file://C:/Users/Danni/Desktop/Repos/Veiðistaðir Ísland/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2773:21)
+[browser] ./node_modules/leaflet/dist/leaflet.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at at (C:\Users\Danni\Desktop\Repos\Veiðistaðir Ísland\node_modules\tailwindcss\dist\lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/child_process/evaluate.ts:74:20)]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:104:5)]
+
+Import trace:
+  Client Component Browser:
+    ./node_modules/leaflet/dist/leaflet.css [Client Component Browser]
+    ./app/layout.tsx [Server Component] 
+    at handleErrors (file://C:/Users/Danni/Desktop/Repos/Veiðistaðir Ísland/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2773:21)
+    at processMessage (file://C:/Users/Danni/Desktop/Repos/Veiðistaðir Ísland/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2834:28)
+    at <unknown> (file://C:/Users/Danni/Desktop/Repos/Veiðistaðir Ísland/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2679:13)
+    at WebSocket.handleMessage (file://C:/Users/Danni/Desktop/Repos/Veiðistaðir Ísland/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2324:17) (file://C:/Users/Danni/Desktop/Repos/Veiðistaðir Ísland/.next/dev/static/chunks/node_modules_next_dist_client_0pe1dg-._.js:2773:21)

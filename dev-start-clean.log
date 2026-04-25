@@ -1,0 +1,11 @@
+
+> veidistadur@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.180:3000
+✓ Ready in 457ms
+
+ GET / 200 in 2.3s (next.js: 1947ms, application-code: 319ms)
+[?25h
