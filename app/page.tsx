@@ -33,7 +33,7 @@ export default function HomePage() {
             </h1>
             <p className="mt-6 max-w-3xl text-[17px] leading-8" style={{ color: `${homepageText}CC` }}>
               Veiðistaðir sameinar Íslandskort, síur og hagnýtar upplýsingar svo þú getir ákveðið hvert
-              þú átt að fara án þess að hoppa á milli dreifðra heimilda.
+              þú átt að fara án þess að hoppa á milli mismunandi vefsíða.
             </p>
 
             <div className="mt-9 flex flex-wrap items-center gap-3">
@@ -69,7 +69,7 @@ export default function HomePage() {
                 Veiðistaðir
               </p>
               <h2 className="mt-2 text-[2rem] font-semibold tracking-tight" style={{ color: homepageText }}>
-                Skoðaðu staði beint af forsíðunni.
+                Byrjaðu á nokkrum völdum veiðistöðum.
               </h2>
               <p className="mt-2 text-[15px] leading-7" style={{ color: `${homepageText}C2` }}>
                 Hér eru nokkrir staðir úr gagnasafninu svo þú getir byrjað strax að bera saman svæði,

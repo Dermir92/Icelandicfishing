@@ -23,6 +23,7 @@ export const FISH_SPECIES = [
 export const BAIT_TYPES = ["fluga", "spúnn", "maðkur", "óstaðfest"] as const;
 
 export const PERMIT_MODELS = ["Veiðikortið", "Stakt leyfi", "Óstaðfest"] as const;
+export const SOURCE_NAMES = ["Veiðikortið", "veida.is"] as const;
 
 export const ACCESS_LEVELS = ["auðvelt", "miðlungs", "krefjandi", "óstaðfest"] as const;
 
@@ -33,6 +34,7 @@ export type WaterType = (typeof WATER_TYPES)[number];
 export type FishSpecies = (typeof FISH_SPECIES)[number];
 export type BaitType = (typeof BAIT_TYPES)[number];
 export type PermitModel = (typeof PERMIT_MODELS)[number];
+export type SourceName = (typeof SOURCE_NAMES)[number];
 export type Confidence = (typeof CONFIDENCE_LEVELS)[number];
 export type AccessLevel = (typeof ACCESS_LEVELS)[number];
 
@@ -85,4 +87,6 @@ export interface DiscoveryFilters {
   species: FishSpecies[];
   baitTypes: BaitType[];
   includedInVeidikortid: "all" | "yes" | "no";
+  permitModels: PermitModel[];
+  sourceNames: SourceName[];
 }

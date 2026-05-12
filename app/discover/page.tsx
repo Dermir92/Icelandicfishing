@@ -3,7 +3,9 @@ import { discoverSpots } from "@/data/discover-spots";
 import {
   BAIT_TYPES,
   FISH_SPECIES,
+  PERMIT_MODELS,
   REGIONS,
+  SOURCE_NAMES,
   WATER_TYPES,
   type DiscoveryFilters,
 } from "@/types/spot";
@@ -28,6 +30,8 @@ function getInitialFilters(searchParams: SearchParams): Partial<DiscoveryFilters
     species: asArray(searchParams.species, FISH_SPECIES),
     baitTypes: asArray(searchParams.bait, BAIT_TYPES),
     includedInVeidikortid,
+    permitModels: asArray(searchParams.permitModel, PERMIT_MODELS),
+    sourceNames: asArray(searchParams.source, SOURCE_NAMES),
   };
 }
 

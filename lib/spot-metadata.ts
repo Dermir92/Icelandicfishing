@@ -9,6 +9,7 @@ export function getActiveFilterCount(filters: DiscoveryFilters) {
   if (filters.species.length) count += 1;
   if (filters.baitTypes.length) count += 1;
   if (filters.includedInVeidikortid !== "all") count += 1;
+  if (filters.permitModels.length || filters.sourceNames.length) count += 1;
 
   return count;
 }

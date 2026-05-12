@@ -32,8 +32,10 @@ const regionOptions: Option[] = [
 ];
 
 const permitOptions: Option[] = [
-  { label: "Innifalið í Veiðikortinu", value: "yes" },
-  { label: "Utan Veiðikortsins", value: "no" },
+  { label: "Veiðikortið", value: "veidikortid" },
+  { label: "Veiða.is", value: "veida-is" },
+  { label: "Stök leyfi", value: "stakt-leyfi" },
+  { label: "Óstaðfest leyfi", value: "ostadfest" },
 ];
 
 function MultiSelect({
@@ -131,9 +133,12 @@ export function HomeFilterBar() {
     bait.forEach((value) => params.append("bait", value));
     region.forEach((value) => params.append("region", value));
 
-    if (veidikortid.length === 1) {
-      params.set("veidikortid", veidikortid[0]);
-    }
+    veidikortid.forEach((value) => {
+      if (value === "veidikortid") params.append("source", "Veiðikortið");
+      if (value === "veida-is") params.append("source", "veida.is");
+      if (value === "stakt-leyfi") params.append("permitModel", "Stakt leyfi");
+      if (value === "ostadfest") params.append("permitModel", "Óstaðfest");
+    });
 
     const query = params.toString();
     return query ? `/discover?${query}` : "/discover";
@@ -164,8 +169,8 @@ export function HomeFilterBar() {
           onToggle={(value) => toggleValue(region, value, setRegion)}
         />
         <MultiSelect
-          label="Veiðikortið"
-          placeholder="Veldu stöðu"
+          label="Veiðileyfi"
+          placeholder="Veldu söluaðila eða leyfi"
           options={permitOptions}
           selectedValues={veidikortid}
           onToggle={(value) => toggleValue(veidikortid, value, setVeidikortid)}

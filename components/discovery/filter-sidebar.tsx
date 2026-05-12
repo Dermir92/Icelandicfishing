@@ -6,13 +6,16 @@ import { SearchBar } from "@/components/discovery/search-bar";
 import {
   BAIT_TYPES,
   FISH_SPECIES,
+  PERMIT_MODELS,
   REGIONS,
+  SOURCE_NAMES,
   WATER_TYPES,
   type DiscoveryFilters,
   type Region,
 } from "@/types/spot";
 
 const visibleRegions: Region[] = REGIONS.filter((region) => region !== "Óstaðfest");
+const visiblePermitModels = PERMIT_MODELS.filter((permitModel) => permitModel !== "Veiðikortið");
 
 function FilterChip({
   active,
@@ -99,7 +102,7 @@ export function FilterSidebar({
   onReset: () => void;
 }) {
   const toggleArrayValue = (
-    key: "regions" | "waterTypes" | "species" | "baitTypes",
+    key: "regions" | "waterTypes" | "species" | "baitTypes" | "permitModels" | "sourceNames",
     value: string,
   ) => {
     const currentValues = filters[key] as string[];
@@ -127,6 +130,14 @@ export function FilterSidebar({
       label: bait,
       onRemove: () => toggleArrayValue("baitTypes", bait),
     })),
+    ...filters.permitModels.map((permitModel) => ({
+      label: permitModel,
+      onRemove: () => toggleArrayValue("permitModels", permitModel),
+    })),
+    ...filters.sourceNames.map((sourceName) => ({
+      label: sourceName,
+      onRemove: () => toggleArrayValue("sourceNames", sourceName),
+    })),
     ...(filters.includedInVeidikortid === "all"
       ? []
       : [
@@ -137,6 +148,10 @@ export function FilterSidebar({
           },
         ]),
   ];
+  const permitFilterCount =
+    filters.permitModels.length +
+    filters.sourceNames.length +
+    (filters.includedInVeidikortid === "all" ? 0 : 1);
 
   return (
     <aside className="hidden xl:block">
@@ -226,44 +241,26 @@ export function FilterSidebar({
             ))}
           </SidebarSection>
 
-          <section className="space-y-3.5">
-            <div className="flex items-center justify-between gap-3">
-              <h3 className="text-[15px] font-semibold tracking-tight text-ink">Veiðikortið</h3>
-              {filters.includedInVeidikortid !== "all" ? (
-                <span className="text-[12px] font-semibold text-moss/62">1</span>
-              ) : null}
-            </div>
-            <div className="grid grid-cols-1 gap-2.5">
-              {[
-                { value: "all", label: "Skiptir ekki máli" },
-                { value: "yes", label: "Í Veiðikortinu" },
-                { value: "no", label: "Utan Veiðikortsins" },
-              ].map((option) => {
-                const active = filters.includedInVeidikortid === option.value;
-
-                return (
-                  <button
-                    key={option.value}
-                    type="button"
-                    onClick={() =>
-                      onChange({
-                        ...filters,
-                        includedInVeidikortid:
-                          option.value as DiscoveryFilters["includedInVeidikortid"],
-                      })
-                    }
-                    className={`rounded-[1.05rem] border px-4 py-3 text-left text-[15px] font-medium transition ${
-                      active
-                        ? "border-[#12343B] bg-[#12343B] text-white shadow-[0_14px_28px_rgba(18,52,59,0.12)]"
-                        : "border-ink/10 bg-white text-ink/74 hover:border-[#12343B]/18 hover:bg-[#f7fbfc]"
-                    }`}
-                  >
-                    {option.label}
-                  </button>
-                );
-              })}
-            </div>
-          </section>
+          <SidebarSection title="Veiðileyfi" count={permitFilterCount} dense>
+            {SOURCE_NAMES.map((sourceName) => (
+              <FilterChip
+                key={sourceName}
+                label={sourceName}
+                active={filters.sourceNames.includes(sourceName)}
+                onClick={() => toggleArrayValue("sourceNames", sourceName)}
+                multiline
+              />
+            ))}
+            {visiblePermitModels.map((permitModel) => (
+              <FilterChip
+                key={permitModel}
+                label={permitModel}
+                active={filters.permitModels.includes(permitModel)}
+                onClick={() => toggleArrayValue("permitModels", permitModel)}
+                multiline
+              />
+            ))}
+          </SidebarSection>
         </div>
       </div>
     </aside>

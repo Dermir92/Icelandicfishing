@@ -5,10 +5,14 @@ import { X } from "lucide-react";
 import {
   BAIT_TYPES,
   FISH_SPECIES,
+  PERMIT_MODELS,
   REGIONS,
+  SOURCE_NAMES,
   WATER_TYPES,
   type DiscoveryFilters,
 } from "@/types/spot";
+
+const visiblePermitModels = PERMIT_MODELS.filter((permitModel) => permitModel !== "Veiðikortið");
 
 function ToggleChip({
   active,
@@ -50,7 +54,7 @@ export function FilterDrawer({
   if (!open) return null;
 
   const toggleArrayValue = (
-    key: "regions" | "waterTypes" | "species" | "baitTypes",
+    key: "regions" | "waterTypes" | "species" | "baitTypes" | "permitModels" | "sourceNames",
     value: string,
   ) => {
     const currentValues = filters[key] as string[];
@@ -146,24 +150,27 @@ export function FilterDrawer({
           </section>
 
           <section>
-            <label className="rounded-[1.4rem] border border-ink/10 bg-white p-4 shadow-sm">
-              <span className="text-sm font-semibold text-ink">Veiðikortið</span>
-              <select
-                value={filters.includedInVeidikortid}
-                onChange={(event) =>
-                  onChange({
-                    ...filters,
-                    includedInVeidikortid:
-                      event.target.value as DiscoveryFilters["includedInVeidikortid"],
-                  })
-                }
-                className="mt-3 w-full rounded-xl border border-ink/10 bg-mist/55 px-3 py-2 text-sm text-ink outline-none"
-              >
-                <option value="all">Skiptir ekki máli</option>
-                <option value="yes">Innifalið</option>
-                <option value="no">Ekki innifalið</option>
-              </select>
-            </label>
+            <h3 className="text-sm font-semibold uppercase tracking-[0.18em] text-moss/72">
+              Veiðileyfi
+            </h3>
+            <div className="mt-3 flex flex-wrap gap-2">
+              {SOURCE_NAMES.map((sourceName) => (
+                <ToggleChip
+                  key={sourceName}
+                  label={sourceName}
+                  active={filters.sourceNames.includes(sourceName)}
+                  onClick={() => toggleArrayValue("sourceNames", sourceName)}
+                />
+              ))}
+              {visiblePermitModels.map((permitModel) => (
+                <ToggleChip
+                  key={permitModel}
+                  label={permitModel}
+                  active={filters.permitModels.includes(permitModel)}
+                  onClick={() => toggleArrayValue("permitModels", permitModel)}
+                />
+              ))}
+            </div>
           </section>
         </div>
 

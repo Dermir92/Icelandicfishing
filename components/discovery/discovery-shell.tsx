@@ -20,16 +20,34 @@ function hasCoordinates(spot: FishingSpot) {
   return typeof spot.latitude === "number" && typeof spot.longitude === "number";
 }
 
-function sortSpots(spots: FishingSpot[], sortMode: SortMode) {
-  const collator = new Intl.Collator("is");
+function sortKey(value: string) {
+  return value
+    .toLowerCase()
+    .normalize("NFKD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/ð/g, "d")
+    .replace(/þ/g, "th")
+    .replace(/æ/g, "ae")
+    .replace(/ö/g, "o");
+}
 
+function compareSortKeys(left: string, right: string) {
+  if (left < right) return -1;
+  if (left > right) return 1;
+  return 0;
+}
+
+function sortSpots(spots: FishingSpot[], sortMode: SortMode) {
   return [...spots].sort((a, b) => {
     if (sortMode === "region") {
-      const regionCompare = collator.compare(a.region, b.region);
+      const regionCompare = compareSortKeys(sortKey(a.region), sortKey(b.region));
       if (regionCompare !== 0) return regionCompare;
     }
 
-    return collator.compare(a.name, b.name);
+    const nameCompare = compareSortKeys(sortKey(a.name), sortKey(b.name));
+    if (nameCompare !== 0) return nameCompare;
+
+    return compareSortKeys(a.id, b.id);
   });
 }
 
@@ -47,6 +65,8 @@ export function DiscoveryShell({
     waterTypes: initialFilters?.waterTypes ?? defaultFilters.waterTypes,
     species: initialFilters?.species ?? defaultFilters.species,
     baitTypes: initialFilters?.baitTypes ?? defaultFilters.baitTypes,
+    permitModels: initialFilters?.permitModels ?? defaultFilters.permitModels,
+    sourceNames: initialFilters?.sourceNames ?? defaultFilters.sourceNames,
   }));
   const [sortMode, setSortMode] = useState<SortMode>("name");
   const [viewMode, setViewMode] = useState<ViewMode>("grid");

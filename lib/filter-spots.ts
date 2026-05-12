@@ -7,6 +7,8 @@ export const defaultFilters: DiscoveryFilters = {
   species: [],
   baitTypes: [],
   includedInVeidikortid: "all",
+  permitModels: [],
+  sourceNames: [],
 };
 
 export const quickFilters = [
@@ -96,6 +98,12 @@ export function filterSpots(spots: FishingSpot[], filters: DiscoveryFilters) {
     }
     if (filters.includedInVeidikortid === "yes" && !spot.includedInVeidikortid) return false;
     if (filters.includedInVeidikortid === "no" && spot.includedInVeidikortid) return false;
+    if (filters.permitModels.length || filters.sourceNames.length) {
+      const matchesPermitModel = filters.permitModels.includes(spot.permitModel);
+      const matchesSourceName = filters.sourceNames.some((sourceName) => sourceName === spot.sourceName);
+
+      if (!matchesPermitModel && !matchesSourceName) return false;
+    }
 
     return true;
   });
