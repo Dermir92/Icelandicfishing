@@ -7,3 +7,6 @@ Thumbs.db
 # local logs
 *.log
 *.err.log
+
+# local env
+.env.local

@@ -18,16 +18,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Alviðra – Sogið – Laxveiði\n\nStaðsetning: Rétt vestan við Selfoss – um 50 km frá Reykjavík\n\nVeiðisvæði: Vesturbakki Sogs fyrir landi Alviðru og austurbakki neðan brúar við Þrastalund.\n\nTímabil: 20. júní – 20. september…",
+    "shortDescription": "Alviðra – Sogið – Laxveiði. Veiðileyfi: stakir dagar.",
     "priceText": null,
     "seasonText": "20. júní – 20. september",
-    "dailyHoursText": null,
+    "dailyHoursText": "Daglega frá kl. 7 – 13 og 16-22. Frá 10. ágúst þá er seinni vaktin frá 15-21",
     "rulesText": null,
     "practicalInfoText": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 64.001766,
+    "longitude": -20.975518,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:bildsfell-sog-silungsveidi-vor",
@@ -39,7 +39,7 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2021/11/243015833_575053520303945_3116449545563122775_n-e1636389600878.jpg",
     "imageAlt": "Bíldsfell – Silungsveiði, Vor",
     "imageSource": "veida.is category image",
-    "region": null,
+    "region": "Suðurland",
     "waterType": "svæði",
     "species": [
       "lax",
@@ -51,16 +51,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Veiðileyfi í Sog Bíldsfell silungsveiði að vori\n\nVeiðitímabilið er 1. maí til 10. júní\n\nSeldir eru stakir dagar, frá morgni til kvölds. \n\nGreitt er fyrir 2 stangir, en veiða má á 3 stangir\n\nVeiðitími: Veidd er ein…",
+    "shortDescription": "Veiðileyfi í Sog Bíldsfell silungsveiði að vori. Seldir eru stakir dagar, frá morgni til kvölds.",
     "priceText": null,
-    "seasonText": "ið er 1. maí til 10. júní",
-    "dailyHoursText": null,
+    "seasonText": "er 1. maí til 10. júní",
+    "dailyHoursText": "Veidd er ein samfelld vakt frá klukkan 8-20 án hlés",
     "rulesText": null,
     "practicalInfoText": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 64.060795,
+    "longitude": -20.989607,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:sog-bildsfell",
@@ -82,16 +82,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Veiðisvæðið við Sog Bíldsfell er vesturbakki Sogsins frá útfallinu fyrir neðan Írafossstöðina og niður í Flóðann, rétt fyrir ofan Tunguá en þar er sem veiði fyrir landi Torfastaða hefst.\n\nVeitt er með 3 stöngum á…",
+    "shortDescription": "Veitt er með 3 stöngum á svæðinu og eru þær yfirleitt seldar allar saman. Seldir eru 2-3 dagar í senn.",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
     "rulesText": null,
     "practicalInfoText": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 64.060795,
+    "longitude": -20.989607,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:brennan-i-borgarfirdi",
@@ -103,7 +103,7 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2016/08/brennan.jpg",
     "imageAlt": "Brennan",
     "imageSource": "veida.is category image",
-    "region": null,
+    "region": "Vesturland",
     "waterType": "svæði",
     "species": [
       "lax",
@@ -111,16 +111,16 @@
     ],
     "allowedBaits": [],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Veiðsvæðið Brennan er við ármót Þverár og Hvítár í Borgarfirði. Sá fiskur sem er á leið í Þverá fer þarna um. Í Brennunni hafa veiðimenn mest veitt í vatnaskilunum þar sem árnar mætast. \n\nVeitt er á 3 stangir í…",
+    "shortDescription": "Veiðsvæðið Brennan er við ármót Þverár og Hvítár í Borgarfirði.  Sá fiskur sem er á leið í Þverá fer þarna um",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
     "rulesText": null,
     "practicalInfoText": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 64.655446,
+    "longitude": -21.583565,
     "dataConfidence": "low",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:bruara-skalholt",
@@ -133,7 +133,7 @@
     "imageAlt": "Brúará",
     "imageSource": "veida.is category image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "á",
     "species": [
       "lax"
     ],
@@ -143,16 +143,16 @@
       "maðkur"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Brúará er önnur vatnsmesta bergvatnsá landsins, hún er lindá og vatnasvæðið um 700 km2, rennsli mjög jafnt eða um 67 rúmmetrar á sek. Lengd hennar er 44 km.\n\nÍ landi Skálholts eru nokkrir heitir hverir í og við Brúará…",
+    "shortDescription": "Brúará er önnur vatnsmesta bergvatnsá landsins, hún er lindá og vatnasvæðið um 700 km2, rennsli mjög jafnt eða um 67 rúmmetrar á sek",
     "priceText": null,
-    "seasonText": "8 – 22",
-    "dailyHoursText": null,
+    "seasonText": null,
+    "dailyHoursText": "Daglega frá 8 til 22",
     "rulesText": null,
     "practicalInfoText": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 64.128602,
+    "longitude": -20.563894,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:bruara-spoastadir",
@@ -164,8 +164,8 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2013/04/images_bruara2_vignir-6.jpg",
     "imageAlt": "Brúará – Spóastaðir",
     "imageSource": "veida.is category image",
-    "region": null,
-    "waterType": "svæði",
+    "region": "Suðurland",
+    "waterType": "á",
     "species": [
       "lax",
       "bleikja"
@@ -176,16 +176,16 @@
       "maðkur"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Brúará er önnur vatnsmesta bergvatnsá landsins, hún er lindá og vatnasvæðið um 700 KM2, rennsli mjög jafnt eða um 67 rúmmetrar á sek. Lengd hennar er 44 km.\n\nVeiði í Brúará er stunduð frá nokkrum bæjum, lax og…",
+    "shortDescription": "Brúará er önnur vatnsmesta bergvatnsá landsins, hún er lindá og vatnasvæðið um 700 KM2, rennsli mjög jafnt eða um 67 rúmmetrar á sek",
     "priceText": null,
-    "seasonText": "er frá 8 – 22",
-    "dailyHoursText": null,
+    "seasonText": null,
+    "dailyHoursText": "Daglega frá 8 – 22",
     "rulesText": null,
     "practicalInfoText": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 64.141538,
+    "longitude": -20.556678,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:flodatangi-silungur-og-lax",
@@ -197,7 +197,7 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2018/03/nordura-munadarnes-rett-stærdð.jpg",
     "imageAlt": "Flóðatangi – Silungur og lax",
     "imageSource": "veida.is category image",
-    "region": null,
+    "region": "Vesturland",
     "waterType": "svæði",
     "species": [
       "lax",
@@ -208,16 +208,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Flóðatangi – Neðsta veiðisvæði Norðurár\n\nNeðst í Norðurá er tveggja stanga Laxa og silungasvæði sem kallað hefur verið Flóðatangasvæði. Þar í gegn fer allur sá lax sem gengur í ána og því sannarlega von að ná þar í lax.…",
+    "shortDescription": "Flóðatangi – Neðsta veiðisvæði Norðurár.  Neðst í Norðurá er tveggja stanga Laxa og silungasvæði sem kallað hefur verið Flóðatangasvæði",
     "priceText": null,
-    "seasonText": "8-13 og 16-22 (frá 14. ág, 15-21)",
-    "dailyHoursText": null,
+    "seasonText": "5. júní – 15. sept",
+    "dailyHoursText": "8-13 og 16-22 (frá 14. ág, 15-21)",
     "rulesText": null,
     "practicalInfoText": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 64.62984360469626,
+    "longitude": -21.688186065485606,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:fossa-laxasvaedi",
@@ -229,8 +229,8 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2016/10/fossa-rett-st.jpg",
     "imageAlt": "Veiðileyfi í Fossá",
     "imageSource": "veida.is category image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": "Suðurland",
+    "waterType": "á",
     "species": [
       "lax",
       "bleikja",
@@ -238,16 +238,16 @@
     ],
     "allowedBaits": [],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Fossá í Þjórsárdal er falleg lax og silungsveiðiá sem rennur í efri hluta Þjórsár.\n\nFrá Hjálparfossi að ármótum við Þjórsá er eitt samfellt veiðisvæði. Veitt er af báðum bökkum árinnar, þar skiptast á flottar breiður,…",
+    "shortDescription": "Fossá í Þjórsárdal er falleg lax og silungsveiðiá sem rennur í efri hluta Þjórsár.  Frá Hjálparfossi að ármótum við Þjórsá er eitt samfellt veiðisvæði",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
     "rulesText": null,
     "practicalInfoText": null,
-    "latitude": null,
-    "longitude": null,
-    "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "latitude": 64.1145,
+    "longitude": -19.8538,
+    "dataConfidence": "low",
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:fossa-silungasvaedi",
@@ -259,23 +259,23 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2016/08/haifoss-2.jpg",
     "imageAlt": "Fossá – Silungasvæði",
     "imageSource": "veida.is category image",
-    "region": null,
-    "waterType": "svæði",
+    "region": "Suðurland",
+    "waterType": "á",
     "species": [
       "urriði"
     ],
     "allowedBaits": [],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Silungasvæði Fossár er 2ja stanga veiðisvæði sem nær frá Háafossi að ofanverðu að Hjálpafossi að neðanverðu. Þessir fossar eru ófiskgengir en á milli fossana er mikið magn af urriða, bæði stórum og smáum. \n\nHáifoss er…",
+    "shortDescription": "Silungasvæði Fossár er 2ja stanga veiðisvæði sem nær frá Háafossi að ofanverðu að Hjálpafossi að neðanverðu",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
     "rulesText": null,
     "practicalInfoText": null,
-    "latitude": null,
-    "longitude": null,
+    "latitude": 64.144153,
+    "longitude": -19.813569,
     "dataConfidence": "low",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:fremri-laxa",
@@ -288,7 +288,7 @@
     "imageAlt": "Fremri",
     "imageSource": "veida.is category image",
     "region": null,
-    "waterType": "vatn",
+    "waterType": "á",
     "species": [
       "lax",
       "urriði"
@@ -297,7 +297,7 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Fremri Laxá er bergvatnsá sem rennur í Laxárvatn en á uppruna sinn í Svínavatni. Áin er fremur nett veiðiá, kjörin fyrir fluguna og ekki síður þurrfluguna. \n\nFremri Laxá er ein af betri urriðaám landsins en á hverju…",
+    "shortDescription": "Fremri Laxá er ein af betri urriðaám landsins en á hverju sumri veiðast nokkrir laxar í Fremri Laxá",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -306,7 +306,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "low",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:galtalaekur",
@@ -328,16 +328,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Galtalækur er góð 2ja stanga urriðaá sem rennur saman við Ytri Rangá vel fyrir ofan laxasvæði Ytri. Oft veiðist mjög vel í Galtalæk en veiðisvæðið er viðkvæmt og því mikilvægt að nálgast það með gætni. \n\nÍ Galtalæk má…",
+    "shortDescription": "Í Galtalæk má finna mjög stóra urriða og einnig að sjálfsögðu marga smærri",
     "priceText": null,
-    "seasonText": "nn er frá 9-19 hvern dag.",
-    "dailyHoursText": null,
+    "seasonText": null,
+    "dailyHoursText": "Daglega frá 9-19 hvern dag",
     "rulesText": null,
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:gufua-i-borgarfirdi",
@@ -350,13 +350,13 @@
     "imageAlt": "Gufuá í Borgarfirði",
     "imageSource": "veida.is category image",
     "region": null,
-    "waterType": "vatn",
+    "waterType": "á",
     "species": [
       "lax"
     ],
     "allowedBaits": [],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Gufuá er 2ja stanga laxveiðá í Borgarfirði. Gufuá á sameiginlegan ós með Hvítá. Stór hluti Gufuár getur orðið mjög vatnslítill á þurrkasumrum en á fyrstu 10 veiðistöðum árinnar gætir flóðs og fjöru og yfir aðal…",
+    "shortDescription": "Gufuá er 2ja stanga laxveiðá í Borgarfirði.  Gufuá á sameiginlegan ós með Hvítá",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -365,7 +365,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "low",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:halla",
@@ -377,14 +377,14 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2020/11/halla-2.jpg",
     "imageAlt": "Hallá",
     "imageSource": "veida.is category image",
-    "region": null,
+    "region": "Norðurland",
     "waterType": "svæði",
     "species": [
       "lax"
     ],
     "allowedBaits": [],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Hallá á Skagaströnd er falleg lítil dragá sem rennur til sjávar rétt sunnan við Skagaströnd í um 10 mínútna fjarlægð frá þjóðvegi 1 við Blönduós. Veiðisvæðið er um 12 km að lengd og er veitt á tvær stangir.\n\nVeiðihús…",
+    "shortDescription": "Veiðihús.  Veiðihús stendur við Hallá og fylgir með veiðileyfum",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -392,8 +392,8 @@
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
-    "dataConfidence": "low",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "dataConfidence": "medium",
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:hlidarvatn-arblik",
@@ -412,7 +412,7 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Stangaveiðifélagið Árblik er eitt þeirra félaga sem leigir veiðirétt í Hlíðarvatni. Félagið var stofnað 1988. Félagið leigir út 2 stangir ásamt veiðihúsi.\n\nStangirnar eru leigðar út saman. Húsið er notalegt en einfalt,…",
+    "shortDescription": "Stangaveiðifélagið Árblik er eitt þeirra félaga sem leigir veiðirétt í Hlíðarvatni. Félagið var stofnað 1988. Félagið leigir út 2 stangir ásamt veiðihúsi.",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -421,7 +421,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "low",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:hlidarvatn-armenn",
@@ -440,7 +440,7 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Ármenn er eitt þeirra félaga sem leigir veiðirétt í Hlíðarvatni. Félagið var stofnað 28. febrúar 1973 og er eina fluguveiðifélag landsins. Félagið leigir út 3 stangir ásamt veiðihúsi, Hlíðarseli.\n\nStangirnar 3 sem…",
+    "shortDescription": "Ármenn er eitt þeirra félaga sem leigir veiðirétt í Hlíðarvatni.  Félagið var stofnað 28.  febrúar 1973 og er eina fluguveiðifélag landsins",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -449,7 +449,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "low",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:holaa-utey",
@@ -462,7 +462,7 @@
     "imageAlt": "Holaa",
     "imageSource": "veida.is category image",
     "region": null,
-    "waterType": "svæði",
+    "waterType": "á",
     "species": [
       "bleikja",
       "urriði"
@@ -473,16 +473,16 @@
       "maðkur"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Veiðileyfi í Hólaá, Útey.\n\nHólaá rennur úr Laugarvatni og niður í Apavatn, og þaðan niður í Brúará. Áin er nokkuð vatnsmikil og hún er mjög góð veiðiá, ekki síst efsti hlutinn – Úteyjarsvæðið. Bleikja er ráðandi í ánni…",
+    "shortDescription": "Veiðileyfi í Hólaá, Útey.  Hólaá rennur úr Laugarvatni og niður í Apavatn, og þaðan niður í Brúará",
     "priceText": null,
-    "seasonText": "ið: 1. apríl – 24. sept",
+    "seasonText": "1. apríl – 24. sept",
     "dailyHoursText": null,
     "rulesText": null,
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:hopid",
@@ -494,8 +494,8 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2022/07/fos_hop_vadhvammur_mb-1.webp",
     "imageAlt": "Hópið",
     "imageSource": "veida.is category image",
-    "region": "Vesturland",
-    "waterType": "vatn",
+    "region": null,
+    "waterType": "svæði",
     "species": [
       "lax",
       "sjóbirtingur",
@@ -504,7 +504,7 @@
     ],
     "allowedBaits": [],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Hóp liggur á mörkum Vestur- og Austur Húnavatnssýslna skammt norðan þjóðvegar nr.1 í Víðidal.\n\nHópið er fimmta stærsta náttúrulega vatn landsins og gætir þar flóðs og fjöru, misjafnt þó. Á mikilli fjöru stendur…",
+    "shortDescription": "Hóp liggur á mörkum Vestur- og Austur Húnavatnssýslna skammt norðan þjóðvegar nr. 1 í Víðidal",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -512,8 +512,8 @@
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
-    "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "dataConfidence": "low",
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:hraun-i-olfusi",
@@ -537,16 +537,16 @@
       "maðkur"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Jörðin Hraun (Hraunstorfan) er staðsett vestan Ölfusárósa í Sveitarfélaginu Ölfusi. Land Hraunstorfunnar, sem Hraun er hluti af, er um 2400 ha ef landhelgi jarðarinnar (netlög) er talin með. Land jarðarinnar eru að…",
+    "shortDescription": "Jörðin Hraun (Hraunstorfan) er staðsett vestan Ölfusárósa í Sveitarfélaginu Ölfusi",
     "priceText": null,
-    "seasonText": "ið frá 1. apríl til 24. september.",
+    "seasonText": "frá 1. apríl til 24. september",
     "dailyHoursText": null,
     "rulesText": null,
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:hvannadalsa",
@@ -558,8 +558,8 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2021/02/DSCN0207-002-scaled-e1648557433564.jpg",
     "imageAlt": "Hvannadalsá",
     "imageSource": "veida.is category image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": null,
+    "waterType": "á",
     "species": [
       "lax"
     ],
@@ -567,7 +567,7 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Hvannadalsá er falleg laxveiðiá við Ísafjarðardjúp með fjölbreytt úrval veiðistaða. Hún rennur um Hvannadal og til sjávar á Langadalsströnd. Áin er um 260 km frá Reykjavik. \n\nHvannadalsá er ein 3ja laxveiðiáa við…",
+    "shortDescription": "Hvannadalsá er ein 3ja laxveiðiáa við Ísafjarðarðardjúp og er oft kölluð perlan í Djúpinu. Hún er systurá Langadalsár, enda hafa þær sameiginlegan Ós.",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -575,8 +575,8 @@
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
-    "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "dataConfidence": "low",
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:hvita-skalholt",
@@ -589,7 +589,7 @@
     "imageAlt": "Hvítá",
     "imageSource": "veida.is category image",
     "region": "Suðurland",
-    "waterType": "vatn",
+    "waterType": "á",
     "species": [
       "lax",
       "sjóbirtingur",
@@ -601,7 +601,7 @@
       "maðkur"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Hvítá í Árnessýslu er vanmetin veiðiá en um hana fer gríðarlegur fjöldi fiska ár hvert, bæði lax, sjóbirtingur og bleikja. Hvítá er með sjálfstæðan sterkan laxastofn, en einnig fer um ána lax sem er á leið uppí aðrar ár…",
+    "shortDescription": "Hvítá í Árnessýslu er vanmetin veiðiá en um hana fer gríðarlegur fjöldi fiska ár hvert, bæði lax, sjóbirtingur og bleikja",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -610,7 +610,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:hvita-skalholt-vorveidi",
@@ -623,7 +623,7 @@
     "imageAlt": "Hvítá",
     "imageSource": "veida.is category image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "á",
     "species": [
       "lax",
       "sjóbirtingur",
@@ -635,7 +635,7 @@
       "maðkur"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Vorveiðileyfi í Hvítá, Við Skálholt\n\nHvítá í Árnessýslu er vanmetin veiðiá en um hana fer gríðarlegur fjöldi fiska ár hvert, bæði lax, sjóbirtingur og bleikja. Hvítá er með sjálfstæðan sterkan laxastofn, en einnig fer…",
+    "shortDescription": "Vorveiðileyfi í Hvítá, Við Skálholt",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -644,7 +644,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:hvolsa-og-stadarholsa",
@@ -657,7 +657,7 @@
     "imageAlt": "Laxá á ásum veiðileyfi",
     "imageSource": "veida.is category image",
     "region": "Vesturland",
-    "waterType": "vatn",
+    "waterType": "á",
     "species": [
       "lax",
       "bleikja"
@@ -667,7 +667,7 @@
       "maðkur"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Hvolsá og Staðarhólsá falla í einum ósi til sjávar í Saurbæ, Dalasýslu. \n\nHvolsá sjálf er 9 km. löng þangað sem Svínadalsá og Brekkudalsá sameinast. \n\nStaðarhólsá er laxgeng 7,5 km að fossi hjá Kjarlaksvöllum. Norðan…",
+    "shortDescription": "Hvolsá sjálf er 9 km.  löng þangað sem Svínadalsá og Brekkudalsá sameinast.  Staðarhólsá er laxgeng 7,5 km að fossi hjá Kjarlaksvöllum",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -676,7 +676,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:langadalsa",
@@ -689,7 +689,7 @@
     "imageAlt": "Langada",
     "imageSource": "veida.is category image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "á",
     "species": [
       "lax"
     ],
@@ -697,7 +697,7 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Langadalsá á upptök sín á Þorskafjarðarheiði í um 4 – 500 metra hæð yfir sjó. Áin er dragá, 24 km.að lengd og fellur um samnefndan dal til sjávar við Nauteyrarós innst við Ísafjarðardjúp. Áin er fiskgeng um 20 km. veg…",
+    "shortDescription": "Stangir og leyfilegt agn: Áin er veidd með aðeins 3-4 stöngum og er eingöngu leyfð fluguveiði enda er áin einstaklega vel fallin til fluguveiða",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -706,7 +706,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:laxa-i-laxardal-i-skefilsstadahreppi",
@@ -718,14 +718,14 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2021/04/lax-litla.jpg",
     "imageAlt": "Laxá í Laxárdal (Í skefilsstaðahreppi)",
     "imageSource": "veida.is category image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": "Norðurland",
+    "waterType": "á",
     "species": [
       "lax"
     ],
     "allowedBaits": [],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Laxá í Skefilstaðahreppi (Laxá á Skaga eða Laxa í Laxárdal) er dragá sem fellur til sjávar í Sævarlandsvík við vestanverðan Skagafjörð. Laxá hefur verið í uppbyggingarfasa síðustu árin eftir að stofn árinnar var næstum…",
+    "shortDescription": "Laxá í Skefilstaðahreppi (Laxá á Skaga eða Laxa í Laxárdal) er dragá sem fellur til sjávar í Sævarlandsvík við vestanverðan Skagafjörð",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -734,7 +734,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:laxa-i-miklholtshreppi",
@@ -747,7 +747,7 @@
     "imageAlt": "Laxá í Miklaholtshreppi",
     "imageSource": "veida.is category image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "á",
     "species": [
       "lax",
       "sjóbirtingur",
@@ -757,16 +757,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Laxá í Miklaholtshreppi\n\nLaxá er nett tveggja stanga á sem á sér sameiginlegan ós við Straumfjarðará. Í hana gengur lax og töluvert af bleikju og sjóbirtingi. Áin hefur ekki verið í almennri sölu í all nokkur ár og er…",
+    "shortDescription": "Laxá er nett tveggja stanga á sem á sér sameiginlegan ós við Straumfjarðará.  Í hana gengur lax og töluvert af bleikju og sjóbirtingi",
     "priceText": null,
-    "seasonText": "inu lýkur 7. sept.",
-    "dailyHoursText": null,
+    "seasonText": null,
+    "dailyHoursText": "að miklu leyti frjáls en hámark 12 tímar á milli klukkan 7:00 og 22:00 – skylda að hvíla í 3 klst hvenær sem er innan dagsins",
     "rulesText": null,
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:midfjardara-silungasvaedi",
@@ -787,7 +787,7 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Silungasvæði Miðfjarðarár\n\nSilungasvæði Miðfjarðarár er 3 km langt veiðisvæði sem nær frá veiðistað 117 Tjarnarhyl og niður að ósi Miðfjarðarár.\n\nVeitt er með 3 dagsstöngum á svæðinu og eru þær seldar saman. Veitt er…",
+    "shortDescription": "Silungasvæði Miðfjarðarár. Silungasvæði Miðfjarðarár er 3 km langt veiðisvæði sem nær frá veiðistað 117 Tjarnarhyl og niður að ósi Miðfjarðarár.",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -796,7 +796,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "low",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:minnivallalaekur",
@@ -817,16 +817,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Minnivallalækur á fáa sína líka í heiminum. Kristaltært og frjósamt lindarvatnið veitir umgjörð utan um einhver allra bestu búsvæði urriða sem fyrirfinnast á Íslandi og sennilega víðar um heim. \n\nStaðsetning lækjarins á…",
+    "shortDescription": "Að hámarki veiða 4 stangir í Minnivallalæk, og venjulega eru þær allar seldar saman. Fluga er eina leyfilega agnið og skal sleppa öllum veiddum fiski.",
     "priceText": null,
-    "seasonText": "– Max 12 tímar á dag.",
-    "dailyHoursText": null,
+    "seasonText": null,
+    "dailyHoursText": "– Max 12 tímar á dag",
     "rulesText": null,
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:mora-a-bardastrond",
@@ -838,14 +838,14 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2026/04/Juni-2012-005-002-scaled-e1776444419782.jpg",
     "imageAlt": "Móra á Barðaströnd",
     "imageSource": "veida.is category image",
-    "region": "Vesturland",
+    "region": "Vestfirðir",
     "waterType": "svæði",
     "species": [
       "lax"
     ],
     "allowedBaits": [],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Móra á Barðaströnd er lax-og silungsveiðiá á sunnanverðum Vestfjörðum skammt frá Vatnsfirði og Brjánslæk, þar sem breiðafjarðarferjan Baldur er með landfestar. Um er að ræða tveggja stanga á og eru báðar stangirnar…",
+    "shortDescription": "Móra rennur um Mórudal og býr yfir fjölbreyttum veiðistöðum; strengjum og hyljum",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -854,7 +854,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:skorradalsvatn",
@@ -866,8 +866,8 @@
     "imageUrl": "https://veida.is/wp-content/uploads/2019/05/Skorradalsvatn-3-002.jpg",
     "imageAlt": "Skorradalsvatn",
     "imageSource": "veida.is category image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": "Höfuðborgarsvæðið",
+    "waterType": "vatn",
     "species": [
       "lax",
       "bleikja",
@@ -878,16 +878,16 @@
       "maðkur"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Skorradalsvatn er í Skorradal í Borgarfirði í um 90 km fjarlægð frá Reykjavík, en Skorradalurinn er ákaflega fallegt svæði og er þar nokkuð mikil sumarhúsabyggð.\n\nÞetta er nokkuð mikið stöðuvatn og liggur það í um 60…",
+    "shortDescription": "Þetta er nokkuð mikið stöðuvatn og liggur það í um 60 metrum yfir sjávarmáli og er um 16 km langt en þó ekki nema um 1 ~ 1. 5 km að breidd að mestum parti",
     "priceText": null,
-    "seasonText": "24/7 á tímabilinu 20. apríl – 20. sept.",
-    "dailyHoursText": null,
+    "seasonText": null,
+    "dailyHoursText": "24/7 á tímabilinu 20. apríl – 20. sept",
     "rulesText": null,
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:straumar-i-borgarfirdi",
@@ -909,7 +909,7 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Veiðisvæði Straumana er þar sem Hvítá og Norðurá í Borgarfirði sameinast. Svæðið er að vonum mjög vinsælt meðal veiðimanna enda fer um svæðið gríðarlega mikið af laxi sem er á leið uppí laxveiðiárnar ofar á svæðinu.\n\nÍ…",
+    "shortDescription": "Í Straumunum veiðist m. a.  lax sem er á leið í Þverá, Norðurá og Gljúfurá.  Einnig er alltaf töluvert af laxi á svæðinu allt tímabilið",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -918,7 +918,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "low",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:svarta",
@@ -931,14 +931,14 @@
     "imageAlt": "Brown trout - Day tours",
     "imageSource": "veida.is category image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "á",
     "species": [
       "bleikja",
       "urriði"
     ],
     "allowedBaits": [],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Svartá í Skagafirði er 4-6 stanga urriðáá sem „breytist“ í Húseyjarkvísl, neðan við fossinn Reykjafoss, Veiðisvæði Svartár nær frá Reykjafossi, að neðanverðu, að Ýrarfellsfossi í Svartárdal.\n\nReykjafoss er ófiskgengur…",
+    "shortDescription": "Reykjafoss er ófiskgengur en í Svartá, fyrir ofan foss er staðbundinn urriði og svolítið af bleikju",
     "priceText": null,
     "seasonText": null,
     "dailyHoursText": null,
@@ -947,7 +947,7 @@
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:tangavatn",
@@ -970,16 +970,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Tangavatn er lítið manngert vatn skammt frá bænum Galtalæk II í Rangárvallarsýslu, í um 115 km fjarlægð frá Reykjavík, en rúmlega 30 km fjarlægð frá þjóðvegi 1, beygt upp veg nr.26.\n\nÁ Galtalæk II er/var eldisstöð frá…",
+    "shortDescription": "Á Galtalæk II er/var eldisstöð frá fiskeldinu í Fellsmúla, þar sem hinn víðfrægi ísaldarurriði er alinn upp áður en honum er sleppt í Veiðivötn, en einnig",
     "priceText": null,
-    "seasonText": "1. Apríl til 15. september.",
+    "seasonText": "1. Apríl til 15. september",
     "dailyHoursText": null,
     "rulesText": null,
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:torfastadir-sog-silungur",
@@ -1002,48 +1002,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Torfastaðir\n\nTímabilið hefst 1. apríl. Á vorin má eiga von á að veiða bæði bleikju, sjóbirting og stöku niðurgöngulax. Sleppiskylda er á öllum fiski. Þegar kemur inní sumarið þá eykst laxavonin einnig, en allur fiskur…",
+    "shortDescription": "Torfastaðir.  Tímabilið hefst 1.  apríl.  Á vorin má eiga von á að veiða bæði bleikju, sjóbirting og stöku niðurgöngulax.  Sleppiskylda er á öllum fiski",
     "priceText": null,
-    "seasonText": "ið hefst 1. apríl. Á vorin má eiga von á að veiða bæði bleikju, sjóbirting og stöku niðurgöngulax. Sleppiskylda er á öllum fiski. Þegar kemur inní sumarið þá eykst laxavonin einnig, en allur fiskur sem gengur uppá Bíldsfells og Ásgarðssvæðið, gengur í gegnum Torfastaði.",
+    "seasonText": "hefst 1. apríl. Á vorin má eiga von á að veiða bæði bleikju, sjóbirting og stöku niðurgöngulax. Sleppiskylda er á öllum fiski. Þegar kemur inní sumarið þá eykst laxavonin einnig, en allur fiskur sem gengur uppá Bíldsfells og Ásgarðssvæðið, gengur í gegnum Torfastaði",
     "dailyHoursText": null,
     "rulesText": null,
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
-  },
-  {
-    "id": "veida:vididalsa-silungasvaedi",
-    "sourceName": "veida.is",
-    "sourceUrl": "https://veida.is/voruflokkur/veidileyfi/silungsveidi/vididalsa-silungasvaedi/",
-    "name": "Víðidalsá – Silungasvæði",
-    "slug": "vididalsa-silungasvaedi",
-    "sourceCategory": "silungsveiði",
-    "imageUrl": "https://veida.is/wp-content/uploads/2016/08/New_Vidals-og-Fitj-Npukotskvarnir-og-niurr-a-Hpi-e1670693679445.jpg",
-    "imageAlt": "Víðidalsá – Silungasvæði",
-    "imageSource": "veida.is category image",
-    "region": "Vesturland",
-    "waterType": "svæði",
-    "species": [
-      "lax",
-      "sjóbirtingur",
-      "bleikja"
-    ],
-    "allowedBaits": [
-      "fluga"
-    ],
-    "permitModel": "Stakt leyfi",
-    "shortDescription": "Silungasvæði Víðidalsár er neðsti hluti Víðidalsár áður en hún rennur í Hópið. \n\nSilungsvæði Víðidalsár er eitt best silungasvæði landsins. Mikið af vænni sjóbleikju veiðist á svæðinu en einnig veiðast vænir…",
-    "priceText": null,
-    "seasonText": null,
-    "dailyHoursText": null,
-    "rulesText": null,
-    "practicalInfoText": null,
-    "latitude": null,
-    "longitude": null,
-    "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:olfusa-austurbakki-vorveidi",
@@ -1056,7 +1024,7 @@
     "imageAlt": "Ölfusá – austurbakki vorveiði",
     "imageSource": "veida.is category image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "á",
     "species": [
       "urriði"
     ],
@@ -1064,16 +1032,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "VORVEIÐI\n\nÖlfusá – Selfoss – Austurbakki\n\n2 stanga svæði á austurbakka Selfoss. \n\nEfri mörk svæðisins eru rétt fyrir neðan Sjúkrahúsið á Selfossi. Neðri mörkin við enda byggðarinnar, að sunnanverðu. Þar má sjá klett sem…",
+    "shortDescription": "VORVEIÐI. Ölfusá – Selfoss – Austurbakki",
     "priceText": null,
-    "seasonText": "1. apríl til 10 júní.",
-    "dailyHoursText": null,
+    "seasonText": "1. apríl til 10 júní",
+    "dailyHoursText": "7-13 og 14-20",
     "rulesText": null,
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veida:olfusa-selfoss-austurbakki",
@@ -1086,7 +1054,7 @@
     "imageAlt": "Ölfusá – Selfoss – austurbakki",
     "imageSource": "veida.is category image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "á",
     "species": [
       "lax",
       "sjóbirtingur"
@@ -1095,16 +1063,16 @@
       "fluga"
     ],
     "permitModel": "Stakt leyfi",
-    "shortDescription": "Ölfusá – Selfoss – Austurbakki\n\n2 stanga svæði á austurbakka Selfoss. \n\nEfri mörk svæðisins eru rétt fyrir neðan Sjúkrahúsið á Selfossi. Neðri mörkin við enda byggðarinnar, að sunnanverðu. Þar má sjá klett sem markar…",
+    "shortDescription": "2 stanga svæði á austurbakka Selfoss.  Efri mörk svæðisins eru rétt fyrir neðan Sjúkrahúsið á Selfossi",
     "priceText": null,
     "seasonText": "21. júní – 24. september",
-    "dailyHoursText": null,
+    "dailyHoursText": "7-13 og 16-22. Frá 20. ágúst er seinni vaktin frá 15-21",
     "rulesText": null,
     "practicalInfoText": null,
     "latitude": null,
     "longitude": null,
     "dataConfidence": "medium",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:arnarvatn-a-melrakkaslettu",
@@ -1117,7 +1085,7 @@
     "imageAlt": "Arnarvatn á Melrakkasléttu",
     "imageSource": "Veiðikortið page image",
     "region": "Norðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1127,16 +1095,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Hraunhafnarvatn er stærsta vatnið á Melrakkasléttu eða 3,4 km2. Vatnið er dýpst um 4 m. og er í 2m. hæð yfir sjávarmáli. Hraunhafnará rennur í suðurenda vatnsins. Æðarvatn og Arnarvatn eru mun smærri.\n\nDagsleyfi\n\nHér…",
+    "shortDescription": "Hraunhafnarvatn er stærsta vatnið á Melrakkasléttu eða 3,4 km2.  Vatnið er dýpst um 4 m.  og er í 2m.  hæð yfir sjávarmáli",
     "priceText": null,
-    "seasonText": "Veiðitímabilið stendur yfir frá 1. maí til 31. ágúst.",
+    "seasonText": "stendur yfir frá 1. maí til 31. ágúst",
     "dailyHoursText": "Leyfilegt er að veiða allan sólarhringinn",
     "rulesText": "Handhöfum Veiðikortsins ber að vera með kortið og skilríki á sér og tilbúnir að sýna það veiðiverði þegar hann vitjar veiðimanna. Það er stranglega bannað að skilja eftir sig rusl og aka utan vega. Börn yngri en 14 ára veiða frítt í fylgd með korthafa. Óskað er eftir að því að menn sendi upplýsingar um afla með tölvupósti á netfangið veidikortid@veidikortid.is .",
     "practicalInfoText": "Fjarlægð er um 644 km. frá Reykjavík sé farið um Hólaheiði og 10 km. frá Raufarhöfn að Hraunhafnarvatni. Vatnasvæðið liggur við þjóðveg nr. 85. Hraunhafnarvatn er við þjóðveginn og liggur hann við vatnið á malarrifi sem er milli vatns og sjávar. Varðandi Æðarvatn þá liggur þjóðvegurinn rétt ofan við nyrðri enda vatnsins í u.þ.b. 100 m. fjarlægð og er ágætt að leggja bílum þar. Fyrir þá sem ætla í Arnarvatn þá er töluverð ganga þangað eða um 500 m.\n\nHraunhafnarvatn er stærsta vatnið á Melrakkasléttu eða 3,4 km2. Vatnið er dýpst um 4 m. og er í 2m. hæð yfir sjávarmáli. Hraunhafnará rennur í suðurenda vatnsins. Æðarvatn og Arnarvatn eru mun smærri.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa\n\nVeiði er heimil í landi Skinnalóns og má sjá merkingu á korti hvar má veiða. Bestu veiðistaðirnir í Hraunhafnarvatni eru við mölina og einnig með því að ganga inn með vatninu í átt að Hraunhafnará. Í Æðavatni er best að veiða á töngum, sem skaga út í vatnið á nokkrum stöðum. Mesta dýpt er u.þ.b. 3 mtr.\n\nLeyfilegt er að tjalda á eigin ábyrgð á gömlu túni við vatnið, en stutt er í mjög gott skipulagt tjaldstæði á Raufarhöfn. Einnig er hægt að athuga með gistingu á Hótel Norðurljósum eða á Gistihúsinu Hreiðrið www.nesthouse.is, sem er staðsett á Raufarhöfn.\n\nHalldór Þórólfsson S: 863-8468.",
     "latitude": 66.50586666666666,
     "longitude": -16.124133333333333,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:baularvallarvatn",
@@ -1149,7 +1117,7 @@
     "imageAlt": "Baulárvallarvatn",
     "imageSource": "Veiðikortið page image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "lax",
       "urriði"
@@ -1159,16 +1127,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er um 1,6 km2 að stærð og 47 metra djúpt, þar sem það er dýpst. Vatnið er í um 193 m. yfir sjávarmáli. Þangað rennur Vatnaá og úr því rennur Baulá, sem síðar sameinast Straumfjarðará, sem er fræg fyrir góða…",
+    "shortDescription": "Vatnið er um 1,6 km2 að stærð og 47 metra djúpt, þar sem það er dýpst.  Vatnið er í um 193 m.  yfir sjávarmáli",
     "priceText": null,
-    "seasonText": "Hefst þegar ísa leysir og lýkur 30. september.",
-    "dailyHoursText": "Heimilt er að veiða frá kl. 7:00 til 24:00.",
+    "seasonText": "Hefst þegar ísa leysir og lýkur 30. september",
+    "dailyHoursText": "Heimilt er að veiða frá kl. 7:00 til 24:00",
     "rulesText": "Veiðimenn eru beðnir um að skilja ekki eftir sig rusl og ganga vel um svæðið. Korthafar þurfa að hafa Veiðikortið og persónuskilríki við höndina þegar veiðivörður vitjar veiðimanna. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.",
     "practicalInfoText": "Vatnið er um 160 km. frá Reykjavík, um 15 km. í suður frá bæði Grundarfirði og Stykkishólmi, á leið frá Vegamótum í norður. Nýja vatnaleiðin á Snæfellsnesi gerir það að verkum, að hægt er að aka alveg upp að vatninu.\n\nVatnið er um 1,6 km2 að stærð og 47 metra djúpt, þar sem það er dýpst. Vatnið er í um 193 m. yfir sjávarmáli. Þangað rennur Vatnaá og úr því rennur Baulá, sem síðar sameinast Straumfjarðará, sem er fræg fyrir góða laxveiði.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Baulárvallavatn\n\nKaupa\n\nVeiðisvæðið, sem Veiðikortið gildir fyrir, er frá norðurbakka Vatnsár að útfalli Straumfjarðarár\n\nTjalda má endurgjaldslaust við vatnið, en hvorki er þar um skipulagt tjaldstæði né hreinlætis­aðstöðu að ræða..\n\nLandeigandi ber enga ábyrgð á tjóni er korthafar Veiðikortsins kunna að verða fyrir, eða öðru sem upp kann að koma í tenglsum við veru veiðimanna á viðkomandi veiðisvæði.",
     "latitude": 64.91165,
     "longitude": -22.877333333333333,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:berufjardarvatn",
@@ -1180,8 +1148,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/11/berufj2.jpg",
     "imageAlt": "Berufjarðarvatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": "Vestfirðir",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1191,16 +1159,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Berufjarðarvatn er frekar lítið eða 0,15 km2 að flatarmáli, fremur aðgrunnt vestan megin en meira dýpi er að austan. Vatnið er 49 m yfir sjávarmáli og er mesta dýpi rúmlega 2 m. Vatnið er um 600 m að lengd og um 300 m…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt dagsleyfi í Berufjarðarvatn",
     "priceText": null,
-    "seasonText": "Hefst 15. maí og lýkur 15. september.",
-    "dailyHoursText": "Heimilt er að veiða frá kl. 7:00 til 23:00.",
+    "seasonText": "Hefst 15. maí og lýkur 15. september",
+    "dailyHoursText": "Heimilt er að veiða frá kl. 7:00 til 23:00",
     "rulesText": "Korthafar þurfa að skrá sig hjá veiðiverði á Hótel Bjarkalundi, þar sem kortanúmer og kennitala eru skráð niður. Veiðimenn eru beðnir um að skilja ekki eftir sig neinar leifar eða ummerki. Stranglega er bannað að aka utan vega. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.",
     "practicalInfoText": "Frá Reykjavík eru um 215 km að vatninu ef farið er um Hvalfjarðargöngin og tæpir 150 km frá Borgarnesi og Stykkishólmi. Vatnið liggur við Vestfjarðaveg og er í alfaraleið fyrir þá sem ætla að heimsækja suðurfirði Vestfjarða.\n\nBerufjarðarvatn er frekar lítið eða 0,15 km2 að flatarmáli, fremur aðgrunnt vestan megin en meira dýpi er að austan. Vatnið er 49 m yfir sjávarmáli og er mesta dýpi rúmlega 2 m. Vatnið er um 600 m að lengd og um 300 m þar sem það er breiðast. Hægt er að aka að vatninu norðaustan megin, beint niður frá Hótel Bjarkalundi.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Berufjarðarvatn\n\nKaupa\n\nVeiði er heimil í öllu vatninu. Algengustu veiðistaðirnir eru á austurbakkanum þeim sem liggur næst veginum. Frá vesturbakkanum er frekar aðgrunnt en þó er veiðivon alls staðar í vatninu.\n\nHótel Bjarkalundur er í um 400 m fjarlægð frá vatninu, en þar eru einnig tjaldstæði með rafmagni og sturtuaðstöðu. Símar 562-1900, info@hotelbjarkalundur.is .",
     "latitude": 65.55323761666666,
     "longitude": -22.1065,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:ellidavatn",
@@ -1212,8 +1180,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/11/elli350x175.jpg",
     "imageAlt": "Elliðavatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Suðurland",
-    "waterType": "svæði",
+    "region": "Höfuðborgarsvæðið",
+    "waterType": "vatn",
     "species": [
       "lax",
       "sjóbirtingur",
@@ -1222,16 +1190,16 @@
     ],
     "allowedBaits": [],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Elliðavatn er vinsælasta veiðivatn höfuðborgarsvæðisins og afar gjöfult.\n\nVatnið er í um 73m. hæð yfir sjávarmáli og er um 1,8 km2 að flatarmáli. Mesta dýpi er rúmir 2 m. en meðaldýpi er um 1 m.\n\nÍ vatnið renna Bugða og…",
+    "shortDescription": "Vatnið er í um 73m. hæð yfir sjávarmáli og er um 1,8 km2 að flatarmáli. Mesta dýpi er rúmir 2 m. en meðaldýpi er um 1 m.",
     "priceText": null,
-    "seasonText": "Hefst á sumardaginn fyrsta ár hvert og lýkur því 15. september.",
-    "dailyHoursText": "Heimilt er að veiða frá kl. 7:00 til 24:00.",
+    "seasonText": "Hefst á sumardaginn fyrsta ár hvert og lýkur því 15. september",
+    "dailyHoursText": "Heimilt er að veiða frá kl. 7:00 til 24:00",
     "rulesText": "Stangaveiðimenn og útivistarfólk er vinsamlegast beðið að ganga vel um svæðið og skilja ekki eftir sig rusl. Jafnframt eru gestir vinsamlegast beðnir um að hirða upp rusl sem á vegi þeirra verður. Vilji menn gera að aflanum við vatnið eru þeir beðnir um að taka með sér slor og hausa.\n\nÓheimilt er að aka utan vega. Öll umferð báta á vatninu er bönnuð nema með leyfi landeigenda. Bent er á bátaleigu á Kríunesi í landi Vatnsenda. Veiðimenn skulu ekki fara inn á sumarbústaðalóðir við vatnið og virða þriggja metra reglu frá vatnsbakka þar sem það getur átt við.\n\nVegna rannsókna á urriða á vatnasvæðinu eru veiðimenn beðnir að athuga hvort veiddir urriðar séu mælimerktir. Merkin eru fest á baki urriðans og geta verið einföld slöngumerki eða rafeindamerki. Merkjum ber að skila til Laxfiska ehf.\n\nÍ Hólmsá má aðeins veiða á flugu!\n\nÍ vatnakerfi Elliðavatns er verndunarátak í gangi fyrir laxastofninn og því beintum við þeim tilmælum til veiðimanna að sleppa veiddum laxi er kann að veiðast á vatnasvæðinu, sé það mögulegt.",
     "practicalInfoText": "Vatnið tilheyrir bæði Reykjavík og Kópavogi. Hægt er að komast að vatninu með því að fara Heiðmerkurafleggjarann og í gegnum Kópavog til að komast að Vatnsendalandi. Til að komast í Hólmsá má beygja til norðurs rétt austan við Heiðmerkurafleggjarann í áttina að Gunnarshólma.\n\nEinnig má komast að ánni með því að beygja til norðurs nokkru austan við Gunnarshólma, eða leggja við brúna yfir hana á Suðurlandsvegi og ganga þaðan upp eða niður með ánni.\n\nElliðavatn er vinsælasta veiðivatn höfuðborgarsvæðisins og afar gjöfult.\n\nVatnið er í um 73m. hæð yfir sjávarmáli og er um 1,8 km2 að flatarmáli. Mesta dýpi er rúmir 2 m. en meðaldýpi er um 1 m.\n\nÍ vatnið renna Bugða og Suðurá. Hólmsá heitir áin nokkru ofar, áður en hún skiptist í Bugðu og Suðurá.\n\nVeiðisvæðið er Elliðavatn fyrir löndum Elliðavatns og Vatnsenda, auk Hólmsár og Nátthagavatns, þaðan sem Hólmsá rennur. Óheimilt er að veiða í Suðurá. Ekki má veiða nær Elliðavatnsstíflu en 50 metra.\n\nHægt er að kaupa gistingu og veitingar á Kríunesi í Vatnsendalandi og á Gunnarshólma við Hólmsá. Engin skipulögð tjaldstæði eru á svæðinu enda er stutt í þá þjónustu í Reykjavík.\n\nVeiðikortshöfum ber að sýna veiðiverði Veiðikortið og skilríki þegar þess er óskað. Þegar handhafi Veiðikortsins er á bíl er hann beðinn um að hafa Veiðikortið sýnilegt við framrúðu bílsins.",
     "latitude": 64.08941666666666,
     "longitude": -21.761466666666667,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:frostastadavatn",
@@ -1244,7 +1212,7 @@
     "imageAlt": "Frostastaðavatn",
     "imageSource": "Veiðikortið page image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "lax",
       "bleikja",
@@ -1252,16 +1220,16 @@
     ],
     "allowedBaits": [],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er stærst af vatnaklasanum sunnan Tungnaár. Það er í um 570 m. hæð yfir sjávarmáli og er um 2,5 km2 að flatarmáli. Mesta dýpi er rúmir 2 m. en meðaldýpi er um 1 m. Þessi leið er einungis fær fjórhjóladrifnum…",
+    "shortDescription": "Vatnið er stærst af vatnaklasanum sunnan Tungnaár.  Það er í um 570 m.  hæð yfir sjávarmáli og er um 2,5 km2 að flatarmáli.  Mesta dýpi er rúmir 2 m",
     "priceText": null,
-    "seasonText": "Veiðitímabilið hefst um 20. júní þegar það er orðið greiðfært uppeftir og því lýkur 15. september.",
-    "dailyHoursText": "Frá kl. 7:00 - 24:00",
+    "seasonText": "hefst um 20. júní þegar það er orðið greiðfært uppeftir og því lýkur 15. september",
+    "dailyHoursText": "Daglega frá kl. 7:00 - 24:00",
     "rulesText": "Veiðimenn skrá sig til veiða í Landmannahelli þar sem þeir fá veiðileyfi með veiðiskýrslu til útfyllingar. Skila ber skýrslunni í Landsmannahelli eða í merktan póstkassa við gatnamótin á Dómadalsleið og Hrauneyjaleið við Tjörfafell. Einnig má taka mynd af veiðiskýrslu og senda á info@landmannahellir.is .\n\nVeiða skal frá landi og eru hólmar friðaðir. Börn yngri en 14 ára veiða frítt með korthafa. Brot á veiðireglum fellur niður veiðirétt samstundis og eiga menn jafnvel á hættu að missa veiðitæki sín og afla, samvæmt heimild í lögum um lax- og silungsveiði. Óheimilt er að gera að fiski við vötnin en bent á aðgerðaborð við Landmannahelli. Skotvopn eru stranglega bönnuð á svæðinu. Fuglar eru friðaðir. Akstur utan vega er bannaður og innan Friðlandsins að Fjallabaki er aðeins heimilt að tjalda á mektum tjaldstæðum. Veiðitölur má sjá á www.veidivotn.is\n\nÓheimilt er að aka utan vega. Notkun báta er aðeins leyfð við netaveiði og fiskirannsóknir.\n\nVegna fiskirannsókna á vatnasvæðinu eru veiðimenn beðnir að gæta að hvort veiddir fiskar séu merktir með plastmerki í baki. Þá fiska þarf að mæla lengd og þyngd, skrá númer merkis og tilgreina veiðistað og skila til veiðivarða við Landmannahelli.",
     "practicalInfoText": "Ekið er inn á Landveg (26) af þjóðvegi 1 við Landvegamót og ekið sem leið liggur þangað til komið er að leið merktri Dómadalsleið (Landmannaleið). Fara þarf að Landmannahelli en þar þurfa veiðimenn að skrá sig og geta haldið þaðan í vatnið, sem er í um 15 mínútna akstursfjarlægð frá Landmannahelli. Akstur frá Reykjavík inn í Frostastaðavatn eru um 2 klst og 40 mín.\n\nVatnið er stærst af vatnaklasanum sunnan Tungnaár. Það er í um 570 m. hæð yfir sjávarmáli og er um 2,5 km2 að flatarmáli. Mesta dýpi er rúmir 2 m. en meðaldýpi er um 1 m. Þessi leið er einungis fær fjórhjóladrifnum bifreiðum. Það þarf að aka yfir kvíslar á leiðinni.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í ýmis vötn\n\nKaupa\n\nUm er að ræða allt vatnið. Besta veiðin er í hrauninu en vinsælast er að veiða við bílastæðið. Mikill fiskur er í vatninu og því um að gera fyrir veiðimenn að prófa fleiri staði.\n\nÍ Landmannahellir er rekin ferðaþjónustan Hellismenn (landmannhellir.is) og einnig má kaupa gistingu í Áfangagili (afangagil.is). Báðir þessir staðir bjóða upp á gistingu og skipulagt tjaldssvæði með hreinlætisaðstöðu.\n\nFrostastaðavatn er aðeins eitt vatn af fjölmörgum vötnum sunnan Tungnár. Veiðikortið gildir hins vegar aðeins í Frostastaðavatn en auðvelt er að kaupa leyfi í Landmannahelli vilji menn kaupa aðgang að fleiri vötnum. Þar kostar veiðileyfið kr. 6.000.- (2024) á stöng á dag. Hafa ber í huga að allt vatnasvæðið er Friðland og biðjum við þá sem þar fara um að taka tillit til þess í umgengi.\n\nHægt er að sjá veiðiferð í vatnið í þættinum Veiðikofinn Fjallableikja í Sarpinum hjá RÚV\n\nSkálaverðir Hellismanna í Landmannahelli sjá um veiðivörslu og bendum við á Landmannahelli ef frekari upplýsinga er þörf.\n\n&lt;&lt; SJÁ KORT AF SVÆÐINU &gt;&gt;",
     "latitude": 64.01673333333333,
     "longitude": -19.047066666666666,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:gislholtsvatn",
@@ -1274,7 +1242,7 @@
     "imageAlt": "Gíslholtsvatn",
     "imageSource": "Veiðikortið page image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1284,16 +1252,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Tvö vötn eru á svæðinu, Eystra og Vestra- Gíslholtsvatn. Handhafar Veiðikortsins mega aðeins veiða í eystra vatninu að vestanverðu, þ.e.a.s í landi Gíslholts. Gíslholtsvatn er um 1,6 km2 að flatarmáli og í 65m hæð yfir…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt dagsleyfi í Gíslholtsvatn",
     "priceText": null,
-    "seasonText": "Veiði er heimilt allt árið um kring.",
+    "seasonText": "Veiði er heimilt allt árið um kring",
     "dailyHoursText": "Heimilt er að veiða allan sólarhringinn",
     "rulesText": "Vinsamlegast skiljið ekki eftir rusl og stranglega bannað er að aka utan vega. Handhöfum Veiðikortsins er heimilt að fara beint niður að vatni en hafa Veiðikortið sýnilegt í bílglugga til þæginda fyrir veiðivörð. Lausaganga hunda er bönnuð á svæðinu. Börn yngri en 14 ára veiða frítt í fylgd með korthafa. Veiði úr bátum er bönnuð.",
     "practicalInfoText": "Frá Reykjavík eru um 85 km að Gíslholtsvatni. Beygt inn á Heiðarveg nr. 284 frá þjóðvegi nr. 1 rétt austan við Þjórsá.\n\nTvö vötn eru á svæðinu, Eystra og Vestra- Gíslholtsvatn. Handhafar Veiðikortsins mega aðeins veiða í eystra vatninu að vestanverðu, þ.e.a.s í landi Gíslholts. Gíslholtsvatn er um 1,6 km2 að flatarmáli og í 65m hæð yfir sjávarmáli. Mesta dýpt er um 8 m. en meðadýpt um 2,5 m.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Gíslholtsvatn\n\nKaupa\n\nVeiði er heimil í eystra vatninu, fyrir landi Gíslholts. Sjá kort.\n\nMögulegt er að fá að tjalda við vatnið í samráði við landeiganda.\n\nVeiðimenn eru beðnir um að fara farlega þar sem bakkarnir eru viðkvæmir á sumum stöðum og eitthvað hefur hrunið úr þeim á stöku stað.\n\nBryndís Dyrving, Gíslholti, S: 487-6553 /\n\nGSM: 847-5787",
     "latitude": 63.94178333333333,
     "longitude": -20.49375,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:hagavik",
@@ -1306,23 +1274,23 @@
     "imageAlt": "Hagavík við Þingvallavatn",
     "imageSource": "Veiðikortið page image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
     ],
     "allowedBaits": [],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Þingvallavatn er í um 100 m. hæð yfir sjávarmáli og mælist um 84 km2 að flatarmáli. Mesta dýpi er um 114 m. Vatnið er eitt vinsælasta veiðivatn á landinu og á sér stóran hóp af fastagestum. Náttúrufegurð og saga gerir…",
+    "shortDescription": "Þingvallavatn er í um 100 m.  hæð yfir sjávarmáli og mælist um 84 km2 að flatarmáli.  Mesta dýpi er um 114 m",
     "priceText": null,
-    "seasonText": "1. apríl til 1 5. september.",
+    "seasonText": "1. apríl til 1 5. september",
     "dailyHoursText": "Heimilt er að veiða allan sólarhringinn",
     "rulesText": "Aðeins er heimlt að veiða með flugu. Veiðimenn og útivistarfólk eru vinsamlegast beðið að ganga vel um svæðið og skilja ekki eftir sig rusl. Óheimilt er að aka utan vega. Vatnið er mjög kalt og eru menn beðnir um að fara að öllu með gát. Öll veiði úr bátum er bönnuð korthöfum Veiðikortsins. Börn yngri en 14 ára veiða frítt í fylgd með korthafa. Stranglega bannað er að kveikja opin eld á svæðinu. Leiðbeiningar varðandi merkta urriða sem sleppt er má sjá með því að smella hér. Ef merktum fiski er landað (ekki sleppt), þá má fá upplýsingar um hvernig á að bera sig að með því að smella hér.",
     "practicalInfoText": "Vatnið er í um 40 km. fjarlægð frá Reykjavík en fljótlegast er að fara Nesjavallaleið.\n\nÞingvallavatn er í um 100 m. hæð yfir sjávarmáli og mælist um 84 km2 að flatarmáli. Mesta dýpi er um 114 m. Vatnið er eitt vinsælasta veiðivatn á landinu og á sér stóran hóp af fastagestum. Náttúrufegurð og saga gerir Þingvallavatn einstakt meðal vatna landsins.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Hagavík\n\nKaupa\n\nHandhöfum Veiðikortsins er heimilt að veiða í Hagavík. Veiðimörk eru frá 10 metrum utan við girðinu að vestanverðu og að austanverðu að gili þar sem lækur rennur eftir út í vatn - sjá nánar á korti. Við biðjum veiðimenn að fara varlega þar sem hluti svæðisins liggur mjög nálægt veginum.\n\nTjaldleyfi er hægt að kaupa í næst ferðaþjónustu eins og t.d. hjá Skátunum við Úlfljótsvatn. Ekki er heimilt að tjalda eða gista í húsbílum á svæðinu.",
     "latitude": 64.12403333333333,
     "longitude": -21.16465,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:haugatjarnir",
@@ -1334,7 +1302,7 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/11/haugatji350x175.jpg",
     "imageAlt": "Haugatjarnir",
     "imageSource": "Veiðikortið page image",
-    "region": "Vesturland",
+    "region": "Norðurland",
     "waterType": "svæði",
     "species": [
       "urriði"
@@ -1344,16 +1312,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Um er að ræða tvær tjarnir, sem eru mjög hentugar fyrir fjölskyldur. Þær eru ekki stórar en mjög aðgengilegar. Þar er mikið af fiski og því sérstaklega skemmtilegar fyrir ungu kynslóðina. Mikið og gott berjaland er í…",
+    "shortDescription": "Um er að ræða tvær tjarnir, sem eru mjög hentugar fyrir fjölskyldur.  Þær eru ekki stórar en mjög aðgengilegar",
     "priceText": null,
-    "seasonText": "Hefst 1. maí og lýkur 30. september.",
-    "dailyHoursText": "Heimilt er að veiða frá kl. 10:00 til 22:00.",
+    "seasonText": "Hefst 1. maí og lýkur 30. september",
+    "dailyHoursText": "Heimilt er að veiða frá kl. 10:00 til 22:00",
     "rulesText": "Vinsamlegast skiljið ekki eftir rusl og stranglega bannað er að aka utan vegar. Handhafar Veiðikortins þurfa að skrá kortanúmer og kennitölu hjá umsjónarmanni, Hugrúnu Sveinsdóttur á Haugum. Börn yngri en 14 ára veiða frítt.",
     "practicalInfoText": "Frá Reykjavík eru um 650 km. og um 35 km. til Egilsstaða. Tjarnirnar eru við bæinn Hauga sem stendur við þjóðveg 95.\n\nUm er að ræða tvær tjarnir, sem eru mjög hentugar fyrir fjölskyldur. Þær eru ekki stórar en mjög aðgengilegar. Þar er mikið af fiski og því sérstaklega skemmtilegar fyrir ungu kynslóðina. Mikið og gott berjaland er í nágrenninu\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Haugatjarnir\n\nKaupa\n\nVeiði er heimil í báðum tjörnunum.\n\nHandhafar Veiðikortsins hafa heimild til að tjalda endurgjaldslaust við vatnið, á eigin ábyrgð. Taka skal fram, að hvorki er þar að finna skipulagt tjaldstæði né hreinlætisaðstöðu.\n\nLandeigandi ber enga ábyrgð á tjóni er korthafar Veiðikortsins kunna að verða fyrir, eða öðru sem upp kann að koma í tenglsum við veru veiðimanna á viðkomandi veiðisvæði.\n\nHugrún Sveinsdóttir, Haugum, s: 892-7813",
     "latitude": 64.98686666666667,
     "longitude": -14.6145,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:haukadalsvatn",
@@ -1366,7 +1334,7 @@
     "imageAlt": "Haukadalsvatn",
     "imageSource": "Veiðikortið page image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "lax",
       "bleikja"
@@ -1376,16 +1344,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er í 37 m. hæð yfir sjávarmáli og er mesta dýpi um 40 m. Stærð vatnsins er 3,2 km2. Besta veiðin fæst jafnan þar, sem lækir renna í vatnið.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Haukadalsvatn\n\nKaupa",
+    "shortDescription": "Vatnið er í 37 m. hæð yfir sjávarmáli og er mesta dýpi um 40 m. Stærð vatnsins er 3,2 km2. Besta veiðin fæst jafnan þar, sem lækir renna í vatnið.",
     "priceText": null,
-    "seasonText": "Hefst 1. maí og lýkur 30. september.",
+    "seasonText": "Hefst 1. maí og lýkur 30. september",
     "dailyHoursText": "Heimilt er að veiða frá morgni til kvölds",
     "rulesText": "Það er stranglega bannað að skilja eftir sig rusl og aka utan vega. Korthafa eiga að skrá sig hjá landeigenda, Sigurði Jökulssyni að Vatni, og jafnframt sýna Veiðikortið og persónuskilríki. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.",
     "practicalInfoText": "Ekið er um Bröttubrekku og þaðan upp þjóðveg 587, rétt áður en komið er að Haukadalsá. Fjarlægð frá Reykjavík er um 140 km., eftir þessari leið. Búðardalur er í næsta nágrenni.\n\nVatnið er í 37 m. hæð yfir sjávarmáli og er mesta dýpi um 40 m. Stærð vatnsins er 3,2 km2. Besta veiðin fæst jafnan þar, sem lækir renna í vatnið.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Haukadalsvatn\n\nKaupa\n\nAðeins er heimilt að veiða í landi Vatns. Ekki má veiði innan við 100 metra frá ós. Veiðisvæðið nær þaðan og allt að gilinu. Veiðimörk eru merkt.\n\nHandhafar Veiðikortsins geta tjaldað endurgjaldslaust við vatnið í samráði við landeiganda og á eigin ábyrgð.\n\nÍ Haukadal eru söguslóðir Eiríks rauða, föður Leifs heppna.",
     "latitude": 65.0558,
     "longitude": -21.64678333333333,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:hitarvatn",
@@ -1398,7 +1366,7 @@
     "imageAlt": "Hítarvatn",
     "imageSource": "Veiðikortið page image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "lax",
       "bleikja",
@@ -1409,16 +1377,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Hítarvatn er 7,6 km2 að stærð og stendur í 147 m hæð yfir sjávarmáli. Úr vatninu rennur Hítará, sem er með þekktari laxveiðiám landsins. Svæðið er tilvalið fyrir fjölskyldur til að eyða góðri stund saman við veiðar og…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt stök leyfi í Hítarvatn",
     "priceText": null,
     "seasonText": "Heimilt að veiða frá enda maí til 31.ágúst",
-    "dailyHoursText": "Leyfilegt er að veiða frá morgni til kvölds.",
+    "dailyHoursText": "Leyfilegt er að veiða frá morgni til kvölds",
     "rulesText": "Athugið að ekkert símasamband er upp við vatnið. Veiðimenn verð því að tryggja að hafa Veiðikortið eða dagleyfi við höndina þegar farið er til veiða til að geta sýnt það veiðiverði þegar og ef hann vitjar veiðimanna.Veiðimenn eru beðnir um að skilja ekki eftir sig rusl. Aðeins eru leyfðar 40 stangir í vatninu á hverjum tíma. Börn yngri en 14 ára veiða frítt í fylgd með korthafa. Veiðimönnum er bönnuð notkun báta á vatninu. Þá skal einnig tekið fram að lausaganga hunda er bönnuð. Veiðiskráning á veidikortid.is/veidiskraning",
     "practicalInfoText": "Ekið er inn á Snæfellsnesið við Borgarnes og þaðan er beygt inn í Hítardal. Vatnið er í um 120 km fjarlægð frá Reykjavík sé ekið um Hvalfjarðargöng og um 40 km frá Borgarnesi.\n\nHítarvatn er 7,6 km2 að stærð og stendur í 147 m hæð yfir sjávarmáli. Úr vatninu rennur Hítará, sem er með þekktari laxveiðiám landsins. Svæðið er tilvalið fyrir fjölskyldur til að eyða góðri stund saman við veiðar og útivist. Mikil náttúrufegurð er við vatnið. Vekja ber athygli á, að mikið er af mýflugum við vatnið.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í Hítarvatn\n\nKaupa\n\nHeimilt er að veiða í öllu vatninu.\n\nHandhafar Veiðikortsins geta tjaldað við vatnið án endurgjalds gegn því að ganga vel um svæðið. Einnig er þar að finna gott gangnamannahús, þar sem kaupa má gistingu hjá Ferðafélagi Borgarfjarðahéraðs, nánari uppl, með tölvupósti, ffb@ffb.is.\n\nVöktun er á svæðinu og veiðimenn þurfa að tryggja að þeir séu með Veiðikortið við höndina.",
     "latitude": 64.86703333333334,
     "longitude": -22.00125,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:hlidarvatn-i-hnappadal",
@@ -1431,7 +1399,7 @@
     "imageAlt": "Hlíðarvatn í Hnappadal",
     "imageSource": "Veiðikortið page image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1441,16 +1409,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Hlíðarvatn í Hnappadal er gjöfult og vinsælt veiðivatn. Sérkenni vatnsins eru að vatnshæð breytist mikið yfir sumarið og veiðistaðir í hrauninu breytast því talsvert milli mánaða. Vatnið er rúmlega 4 km2 og mesta dýptin…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt stök leyfi í ýmis vötn",
     "priceText": null,
-    "seasonText": "Heimilt að veiða allt árið um kring.",
-    "dailyHoursText": "Leyfilegt er að veiða allan sólarhringinn.",
+    "seasonText": "Heimilt að veiða allt árið um kring",
+    "dailyHoursText": "Leyfilegt er að veiða allan sólarhringinn",
     "rulesText": "Veiðimenn mega fara beint til veiða en skulu lata vita af sér í síma 894-6679 eða koma við í Hraunholtum og hafa Veiðikortið á sér til að sýna veiðiverði þegar hann vitjar veiðimanna.\n\nVeiðimenn eru einnig vinsamlegast beðnir um að fylla út veiðiskýrslu á vefnum okkur senda okkur á veidikortid@veidikortid.is .\n\nVeiðimenn eru vinsamlegast beðnir um að ganga vel um svæðið og ekki skilja eftir sig rusl.\n\nÖll bátaumferð er bönnuð.",
     "practicalInfoText": "Ekið er inn á Snæfellsnesið við Borgarnes og þaðan er beygt inn á Heydalsveg, malarveg sem er merktur Búðardalur og ekið eftir honum um 10 km og þá er vatnið á hægri hönd. Vatnið er í um 130 km fjarlægð frá Reykjavík sé ekið um Hvalfjarðargöng og um 50 km frá Borgarnesi.\n\nHlíðarvatn í Hnappadal er gjöfult og vinsælt veiðivatn. Sérkenni vatnsins eru að vatnshæð breytist mikið yfir sumarið og veiðistaðir í hrauninu breytast því talsvert milli mánaða. Vatnið er rúmlega 4 km2 og mesta dýptin er um 20m. Það stendur í um 75 m. hæð yfir sjávarmáli.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa\n\nHeimilt er að veiða fyrir landi Hraunholta sem er vestari hluti vatnsins. Veiðimörk eru miðuð við Svartaskúta í suðri og Hermannsholts í norðri. Sjá veiðimörk á korti. Vinsælustu staðirnir eru Hraunið, Rif og Víkin.\n\nATH. Veiðikortið gildir aðeins í landi Hraunholta - sjá kort. Einnig er hægt að kaupa veiðileyfi og tjaldsstæði í Hallkelsstaðahlíð, fyrir þá sem vilja.\n\nHægt er að tjalda við vatnið án endurgjalds meðan pláss leyfir, en snyrtilegri umgengni er krafist. Hreinlætisaðstaða er við vatnið.\n\nVeiðihús: Stangveiðfélag Borgarness er með snyrtilegt hús við vatnið sem er kallað Jónsbúð og er hægt að fá það leigt. Í húsinu er gistipláss fyri 6-7 manns en þar er fín aðstaða með eldhúsi og salerni, en þó ekkert rafmagn. Nánari upplýsingar um það má finna á svfb.is.",
     "latitude": 64.88706666666667,
     "longitude": -22.191866666666666,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:holmarvatn",
@@ -1463,7 +1431,7 @@
     "imageAlt": "Hólmavatn í Dölum",
     "imageSource": "Veiðikortið page image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "lax",
       "bleikja",
@@ -1475,16 +1443,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Hólmavatn er um 1 km2 að stærð og í um 190 m hæð yfir sjávarmáli.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa",
+    "shortDescription": "Hólmavatn er um 1 km2 að stærð og í um 190 m hæð yfir sjávarmáli. Dagsleyfi",
     "priceText": null,
-    "seasonText": "Heimilt að veiða allt árið um kring.",
-    "dailyHoursText": "Leyfilegt er að veiða allan sólarhringinn.",
+    "seasonText": "Heimilt að veiða allt árið um kring",
+    "dailyHoursText": "Leyfilegt er að veiða allan sólarhringinn",
     "rulesText": "Veiðimenn verða að skrá sig við komu á bænum Sólheimum áður en haldið er til veiða, en sýna þarf Veiðikortið og skilríki. Einnig fá veiðimenn veiðiskýrslu, sem þarf að skila útfylltri við lok veiða.\n\nAðeins er heimilt að koma til veiða á milli 7:00 og 22:00.\n\nÖll umferð á mótorhjólum / fjórhjólum er bönnuð nema í samráði við veiðivörð. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.\n\nHundar eru aðeins leyfðir á svæðinu í samráði við veiðivörð.",
     "practicalInfoText": "Vatnið er um 180 km frá Reykjavík, eða um 30 km frá Búðardal. Ekið er um Bröttubrekku í áttina að Búðardal, ef komið er að sunnan. Rétt áður en komið er að Laxá í Dölum er beygt upp Laxárdal á þjóðvegi 59 og ekið áleiðis 24,8 km að bænum Sólheimum þar sem veiðimenn skrá sig. Þaðan er um 5 km vegur upp á heiði, en hann er ekki greiðfær fólksbílum, þó að hægt sé að aka þar á vel útbúnum og háum fjórhjóladrifsbílum. Jepplingar og jeppar hentar þar að sjálfsögðu best.\n\nHólmavatn er um 1 km2 að stærð og í um 190 m hæð yfir sjávarmáli.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa\n\nVeiða má í öllu vatninu fyrir landi Sólheima.\n\nVeiða má fyrir landi Sólheima, eða frá útfalli austur fyrir vatnið og norður að þeim punkti þar sem Reiðgötuvatn liggur að vatninu – sjá bláa línu á korti. Veiði í Gullhamarsvatni og Selvötnum fylgja með. Gullhamarsvatn er fyrir norðan Hólmavatn og fyrir austan Gullhamar sem er við vatnið. Selvötnin eru fyrir austan Hólmavatn og austan Selhólana en Sellækurinn rennur á milli Hólmavatns og Selvatnna. Þessi vötn eru í stuttu göngufæri frá Hólmavatni.\n\nHægt er að tjalda endurgjaldslaust við vatnið á eigin ábyrgð og í samráði við landeiganda, end þar er þó enga hreinlætisaðstöðu að finna.\n\nDaði Einarsson á Sólheimum. S: 863-7702",
     "latitude": 65.23808333333334,
     "longitude": -21.369966666666667,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:hraunhafnarvatn",
@@ -1497,7 +1465,7 @@
     "imageAlt": "Hraunhafnarvatn",
     "imageSource": "Veiðikortið page image",
     "region": "Norðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1507,16 +1475,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Hraunhafnarvatn er stærsta vatnið á Melrakkasléttu eða 3,4 km2. Vatnið er dýpst um 4 m. og er í 2m. hæð yfir sjávarmáli. Hraunhafnará rennur í suðurenda vatnsins. Æðarvatn og Arnarvatn eru mun smærri.\n\nDagsleyfi\n\nHér…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt stök leyfi í ýmis vötn",
     "priceText": null,
-    "seasonText": "Veiðitímabilið stendur yfir frá 1. maí til 31. ágúst.",
+    "seasonText": "stendur yfir frá 1. maí til 31. ágúst",
     "dailyHoursText": "Leyfilegt er að veiða allan sólarhringinn",
     "rulesText": "Handhöfum Veiðikortsins ber að vera með kortið og skilríki á sér og tilbúnir að sýna það veiðiverði þegar hann vitjar veiðimanna. Það er stranglega bannað að skilja eftir sig rusl og aka utan vega. Börn yngri en 14 ára veiða frítt í fylgd með korthafa. Óskað er eftir að því að menn sendi upplýsingar um afla með tölvupósti á netfangið veidikortid@veidikortid.is .",
     "practicalInfoText": "Fjarlægð er um 644 km. frá Reykjavík sé farið um Hólaheiði og 10 km. frá Raufarhöfn að Hraunhafnarvatni. Vatnasvæðið liggur við þjóðveg nr. 85. Hraunhafnarvatn er við þjóðveginn og liggur hann við vatnið á malarrifi sem er milli vatns og sjávar. Varðandi Æðarvatn þá liggur þjóðvegurinn rétt ofan við nyrðri enda vatnsins í u.þ.b. 100 m. fjarlægð og er ágætt að leggja bílum þar. Fyrir þá sem ætla í Arnarvatn þá er töluverð ganga þangað eða um 500 m.\n\nHraunhafnarvatn er stærsta vatnið á Melrakkasléttu eða 3,4 km2. Vatnið er dýpst um 4 m. og er í 2m. hæð yfir sjávarmáli. Hraunhafnará rennur í suðurenda vatnsins. Æðarvatn og Arnarvatn eru mun smærri.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa\n\nVeiði er heimil í landi Skinnalóns og má sjá merkingu á korti hvar má veiða. Bestu veiðistaðirnir í Hraunhafnarvatni eru við mölina og einnig með því að ganga inn með vatninu í átt að Hraunhafnará. Í Æðavatni er best að veiða á töngum, sem skaga út í vatnið á nokkrum stöðum. Mesta dýpt er u.þ.b. 3 mtr.\n\nLeyfilegt er að tjalda á eigin ábyrgð á gömlu túni við vatnið, en stutt er í mjög gott skipulagt tjaldstæði á Raufarhöfn. Einnig er hægt að athuga með gistingu á Hótel Norðurljósum eða á Gistihúsinu Hreiðrið www.nesthouse.is, sem er staðsett á Raufarhöfn.\n\nHalldór Þórólfsson S: 863-8468.",
     "latitude": 66.5206,
     "longitude": -16.03935,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:hraunsfjardarvatn",
@@ -1529,7 +1497,7 @@
     "imageAlt": "Hraunsfjarðarvatn",
     "imageSource": "Veiðikortið page image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "urriði"
     ],
@@ -1538,16 +1506,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er um 2,5 km2 að stærð og 84 metra djúpt, þar sem það er dýpst. Vatnið er í um 207 m. yfir sjávarmáli. Þaðan rennur Vatnaá í Baulárvallarvatn.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Hraunsfjarðarvatn\n\nKaupa",
+    "shortDescription": "Vatnið er um 2,5 km2 að stærð og 84 metra djúpt, þar sem það er dýpst. Vatnið er í um 207 m. yfir sjávarmáli. Þaðan rennur Vatnaá í Baulárvallarvatn.",
     "priceText": null,
-    "seasonText": "Hefst þegar ísa leysir og lýkur 30. september.",
-    "dailyHoursText": "Heimilt er að veiða frá kl. 7:00 til 24:00.",
+    "seasonText": "Hefst þegar ísa leysir og lýkur 30. september",
+    "dailyHoursText": "Heimilt er að veiða frá kl. 7:00 til 24:00",
     "rulesText": "Veiðimenn eru beðnir um að skilja ekki eftir sig rusl og ganga vel um svæðið. Korthafar þurfa að hafa Veiðikortið og persónuskilríki við höndina þegar veiðivörður vitjar veiðimanna. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.",
     "practicalInfoText": "Vatnið er um 160 km. frá Reykjavík, um 15 km. í suður frá bæði Grundarfirði og Stykkishólmi, á leið frá Vegamótum í norður. Nýja vatnaleiðin á Snæfellsnesi gerir það að verkum, að hægt er að aka nær alveg upp að vatninu á vegarslóða frá Baulárvallarvatni, en síðasta spölinn þarf að fara fótgangandi (15 mín). Slóði þessi er einungis fær fjórhjóladrifnum bílum.\n\nVatnið er um 2,5 km2 að stærð og 84 metra djúpt, þar sem það er dýpst. Vatnið er í um 207 m. yfir sjávarmáli. Þaðan rennur Vatnaá í Baulárvallarvatn.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Hraunsfjarðarvatn\n\nKaupa\n\nVeiða má í öllu vatninu.\n\nTjalda má endurgjaldslaust við vatnið, en hvorki er þar um skipulagt tjaldstæði né hreinlætis­aðstöðu að ræða.\n\nLandeigandi ber enga ábyrgð á tjóni er korthafar Veiðikortsins kunna að verða fyrir, eða öðru sem upp kann að koma í tenglsum við veru veiðimanna á viðkomandi veiðisvæði.",
     "latitude": 64.92095,
     "longitude": -22.9123,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:hraunsfjordur",
@@ -1572,16 +1540,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Hraunsfjörður er skemmtilegt veiðisvæði. Um er að ræða lón fyrir innan stíflu við Hraunsfjörð. Svæðið er víðáttumikið og mikið af fiski, sjóbleikju, sjóbirtingi og laxi.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt dagsleyfi í Hraunsfjörðinn",
     "priceText": null,
-    "seasonText": "Hefst 1. apríl og lýkur 30. september.",
-    "dailyHoursText": "Heimilt er að veiða frá kl. 7:00 til 23:00.",
+    "seasonText": "Hefst 1. apríl og lýkur 30. september",
+    "dailyHoursText": "Heimilt er að veiða frá kl. 7:00 til 23:00",
     "rulesText": "Veiðimenn og útivistarfólk er vinsamlegast beðið að ganga vel um svæðið og ekki skilja eftir sig rusl. Strangleag bannað er að aka utan vega. Ekki er heimilt að aka ófæran veg sem liggur austan megin í dalnum sem og í hraunkantinum inn að vatninu. Öll veiði úr bátum er bönnuð korthöfum Veiðikortsins. Veiðimenn eru vinsamlegast beðnir um að ganga til veiða af hófsemi.",
     "practicalInfoText": "Lónið er í um 180 km. fjarlægð frá Reykjavík. Ekið er sem leið liggur fram hjá Borgarnesi og beygt inn á Mýrar. Síðan er beygt upp á Vatnaleið, við Vegamót, í átt að Stykkishólmi. Þegar komið er yfir heiðina er beygt til vinstri í átt að Grundarfirði og síðan aftur til vinstri eftir um 4 km. við skilti er vísar á veiðisvæðið.\n\nHraunsfjörður er skemmtilegt veiðisvæði. Um er að ræða lón fyrir innan stíflu við Hraunsfjörð. Svæðið er víðáttumikið og mikið af fiski, sjóbleikju, sjóbirtingi og laxi.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Hraunsfjörðinn\n\nKaupa\n\nHeimilt er að veiða í lóninu fyrir innan stíflu. Veiði fyrir neðan stíflu er bönnuð með öllu. Athugið að það er bannað að veiða í stífluopinu og ekki er heimilt að standa á steinsteypta kantinum og kasta þaðan. Samkvæmt veiðireglum má ekki veiða nær stíflu en 20 m. en athugið þó að ekki má veiða nær stíflu en 100 m. að vestanverðu, þar sem nyrsti hluti vesturbakkans er í eigu Berserkseyrar og tilheyrir ekki veiðisvæðinu.\n\nVið vatnið er góð aðstaða fyrir tjöld og húsbíla, en tekið skal fram að ekki er skipulalgt tjaldsvæði né hreinlætisaðstaða. Þá er farinn slóði vestan megin við vatnið, sem nær inn að botni fjarðarins. Einnig er bent á bændagistingu í Eyrarsveit og gistimöguleika í Grundarfirði og Stykkishólmi.\n\nHundaeigendur athugið að passa upp á hunda ykkar þar sem upp hafa komið tilfelli þar sem hundar hafa farið í fé.",
     "latitude": 64.9454,
     "longitude": -23.01475,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:hredavatn",
@@ -1594,7 +1562,7 @@
     "imageAlt": "Hreðavatn",
     "imageSource": "Veiðikortið page image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1604,16 +1572,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Hreðavatn er aðgengilegt og gjöfult veiðivatn í fallegu umhverfi skammt frá Bifröst. Vatnið er um 1 km2 og mesta dýptin er um 20m. Það stendur í um 56 m. hæð yfir sjávarmáli.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt stök leyfi í ýmis vötn",
     "priceText": null,
-    "seasonText": "Hefst 20. maí og lýkur 30. september.",
-    "dailyHoursText": "Leyfilegt er að veiða frá kl. 7 til kl. 24.",
+    "seasonText": "Hefst 20. maí og lýkur 30. september",
+    "dailyHoursText": "Leyfilegt er að veiða frá kl. 7 til kl. 24",
     "rulesText": "Veiðimenn mega fara beint til veiða en skulu hafa Veiðikortið á sér til að sýna veiðiverði þegar hann vitjar veiðimanna.\n\nVeiðimenn eru einnig vinsamlegast beðnir um að fylla út veiðiskýrslu á vefnum okkur senda okkur á veidikortid@veidikortid.is .\n\nVeiðimenn eru vinsamlegast beðnir um að ganga vel um svæðið og ekki skilja eftir sig rusl.\n\nÖll bátaumferð er bönnuð.",
     "practicalInfoText": "Ekið er Norðurárdalinn og beygt vestur rétt sunnan við Bifröst. Vatnið er í um 115 km fjarlægð frá Reykjavík sé ekið um Hvalfjarðargöng og um 30 km frá Borgarnesi.\n\nHreðavatn er aðgengilegt og gjöfult veiðivatn í fallegu umhverfi skammt frá Bifröst. Vatnið er um 1 km2 og mesta dýptin er um 20m. Það stendur í um 56 m. hæð yfir sjávarmáli.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa\n\nHeimilt er að veiða í Hreðavatnslandi sem er norðanmegin í vatninu. Sjá veiðimörk á korti.\n\nBannað er að tjalda við vatnið en ýmsir ferðaþjónustuaðilar eru í nágrenninu.",
     "latitude": 64.7608,
     "longitude": -21.589816666666668,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:kleifarvatn-a-reykjanesi",
@@ -1625,8 +1593,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/09/FL_Kleifarvatn2.jpg",
     "imageAlt": "Kleifarvatn á Reykjanesi",
     "imageSource": "Veiðikortið page image",
-    "region": "Suðurland",
-    "waterType": "svæði",
+    "region": "Höfuðborgarsvæðið",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1636,16 +1604,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Kleifarvatn er eitt af stærstu vötnum landsins, um 8 km2. að stærð og 136 m. yfir sjávarmáli. Mesta dýpi í vatninu er um 90 m. á móts við Syðri Stapa. Meðaldýpi í vatninu er um 29 m. Stangaveiðifélag Hafnarfjarðar fer…",
+    "shortDescription": "Kleifarvatn er eitt af stærstu vötnum landsins, um 8 km2.  að stærð og 136 m.  yfir sjávarmáli.  Mesta dýpi í vatninu er um 90 m.  á móts við Syðri Stapa",
     "priceText": null,
-    "seasonText": "Hefst 15. apríl og lýkur 30. september.",
+    "seasonText": "Hefst 15. apríl og lýkur 30. september",
     "dailyHoursText": "Heimilt að veiða allan sólarhringinn",
     "rulesText": "Handhöfum Veiðikortsins ber að vera með kortið og skilríki á sér og tilbúnir að sýna það veiðiverði þegar hann vitjar veiðimanna. Það er stranglega bannað að skilja eftir sig rusl og aka utan vega. Börn yngri en 14 ára veiða frítt í fylgd með korthafa. Óskað er eftir að því að menn sendi upplýsingar um afla með tölvupósti á netfangið veidikortid@veidikortid.is . Bátaumferð á vatninu er bönnuð.",
     "practicalInfoText": "Fjarlægð er um 34 km. frá Reykjavík. Auðvelt er að komast að vatninu, en aka þarf Krísuvíkuleið og liggur vatnið meðfram þjóðveginum.\n\nKleifarvatn er eitt af stærstu vötnum landsins, um 8 km2. að stærð og 136 m. yfir sjávarmáli. Mesta dýpi í vatninu er um 90 m. á móts við Syðri Stapa. Meðaldýpi í vatninu er um 29 m. Stangaveiðifélag Hafnarfjarðar fer fyrir veiðiréttinum í vatninu. Kleifarvatn er frægt fyrir stórfiska og mælingar sýna mikið af fiski í vatninu, einnig hafa kafarar séð mikið af vænum fiski þar. Stangaveiðifélag Hafnarfjarðar hefur hafið ræktunarátak í vatninu og sumarið 2006 var sleppt um 10.000 ársgömlum urriðaseiðum í vatnið. Sleppingum verður haldið áfram næstu ár auk þess sem slóðar í kringum vatnið hafa verið lagfærðir.\n\nLeiðarlýsing og fjarlægð frá Rvk. og næsta bæjarfélagi.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Kleifarvatn\n\nKaupa\n\nVeiði er heimil í öllu vatninu.\n\nEngin gistiaðstaða er við vatnið.\n\nStangaveiðifélag Hafnarfjarðar fer með veiðieftirlit.",
     "latitude": 63.92595,
     "longitude": -21.9929,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:langavatn",
@@ -1658,7 +1626,7 @@
     "imageAlt": "Langavatn",
     "imageSource": "Veiðikortið page image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1668,16 +1636,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Langavatn er um 5,1 km2 að flatarmáli og hefur 36 metra dýpi, þegar mest er. Það liggur 215 metra yfir sjávarmáli í fallegu umhverfi. Þangað rennur Langavatnsá að norðan, en Beilá að austan. Úr suðvesturhorni þess…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt dagsleyfi í Langavatn",
     "priceText": null,
-    "seasonText": "Hefst 15. júní og lýkur 20. september.",
-    "dailyHoursText": "Leyfilegt er að veiða frá kl. 7 til kl. 24.",
+    "seasonText": "Hefst 15. júní og lýkur 20. september",
+    "dailyHoursText": "Leyfilegt er að veiða frá kl. 7 til kl. 24",
     "rulesText": "Veiðmenn skulu hafa Veiðikortið á sér til að sýna veiðiverði þegar hann vitjar veiðimanna. Veiðimenn eru einnig vinsamlegast beðnir um að fylla út Veiðiskýrslu á vefnum og senda okkur með tölvupósti.",
     "practicalInfoText": "Leiðin að Langavatni liggur eftir þjóðvegi nr. 1 um Borgarnes að Svignaskarði. Þar er ekinn 13 km. langur afleggjari, jafnan fólksbílafær, á vinstri hönd, upp með Gljúfurá. Þá er einnig fært að vatninu eftir leið upp með Langá.\n\nLangavatn er um 5,1 km2 að flatarmáli og hefur 36 metra dýpi, þegar mest er. Það liggur 215 metra yfir sjávarmáli í fallegu umhverfi. Þangað rennur Langavatnsá að norðan, en Beilá að austan. Úr suðvesturhorni þess fellur hin kunna Langá til suðurs. Langavatn hefur verið notað til vatnsmiðlunar og því getur yfirborðshæð þess verið nokkuð breytileg. Helstu veiðistaðir eru austarlega í vatninu við hólma, sem eru fram undan leitarmannakofa við vatnið. Góðir veiðistaðir eru einnig við útfall Langár.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Langavatn\n\nKaupa\n\nVeiða má í vatninu öllu.\n\nKorthafar Veiðikortsins geta tjaldað endurgjaldlaust við vatnið, en enga hreinlætisaðstöðu er þar að finna.",
     "latitude": 64.80865,
     "longitude": -21.763866666666665,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:laxarvatn-i-dolum",
@@ -1690,7 +1658,7 @@
     "imageAlt": "Laxárvatn í Dölum",
     "imageSource": "Veiðikortið page image",
     "region": "Vesturland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "lax",
       "urriði"
@@ -1699,16 +1667,16 @@
       "fluga"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Laxá í Dölum á upptök sín í Laxárvatni. Vatnið er um 0,5 km2 að stærð og í um 150m hæð yfir sjávarmáli.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa",
+    "shortDescription": "Laxá í Dölum á upptök sín í Laxárvatni. Vatnið er um 0,5 km2 að stærð og í um 150m hæð yfir sjávarmáli. Dagsleyfi",
     "priceText": null,
-    "seasonText": "Heimilt að veiða allt árið um kring.",
-    "dailyHoursText": "Leyfilegt er að veiða allan sólarhringinn.",
+    "seasonText": "Heimilt að veiða allt árið um kring",
+    "dailyHoursText": "Leyfilegt er að veiða allan sólarhringinn",
     "rulesText": "Veiðimenn verða að skrá sig við komu á bænum Sólheimum áður en haldið er til veiða, en sýna þarf Veiðikortið og skilríki. Einnig fá veiðimenn veiðiskýrslu, sem þarf að skila útfylltri við lok veiða. Aðeins er heimilt að koma til veiða milli 7:00 og 22:00. Öll umferð á mótorhjólum / fjórhjólum er bönnuð nema í samráði við veiðivörð. Börn yngri en 14 ára veiða frítt í fylgd korthafa. Hundar eru bannaðir á svæðinu.",
     "practicalInfoText": "Vatnið er um 180 km frá Reykjavík, eða um 30 km frá Búðardal. Ekið er um Bröttubrekku í áttina að Búðardal, ef komið er að sunnan, annars farið hefðbundnar leiðir frá Norðurlandi eða Vestfjörðum. Rétt áður en komið er að Laxá í Dölum er beygt upp Laxárdalinn og ekið að bænum Sólheimum til að skrá sig. Til að komast að vatninu er best að fara inn á gamlan veg, sem liggur frá þjóðvaeginum og niður með Lægðarlæk, en þar er hægt að leggja bílum og ganga niður að vatni.\n\nLaxá í Dölum á upptök sín í Laxárvatni. Vatnið er um 0,5 km2 að stærð og í um 150m hæð yfir sjávarmáli.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa\n\nVeiða má í öllu vatninu.\n\nHægt er að tjalda endurgjaldslaust við vatnið á eigin ábyrgð og í samráði við landeiganda, end þar er þó enga hreinlætisaðstöðu að finna.\n\nDaði Einarsson á Sólheimum. S: 863-7702",
     "latitude": 65.21283333333334,
     "longitude": -21.32935,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:leirvogsvatn",
@@ -1721,7 +1689,7 @@
     "imageAlt": "Leirvogsvatn",
     "imageSource": "Veiðikortið page image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1731,16 +1699,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Leirvogsvatn er um 1,2 km2 að flatarmáli og hefur 16 metra dýpi, þegar mest er. Það liggur 211 metra yfir sjávarmáli rétt við Þingvallaveginn. Leirvogsá rennur úr vatninu en bannað er að veiða í ánni.",
+    "shortDescription": "Leirvogsvatn er um 1,2 km2 að flatarmáli og hefur 16 metra dýpi, þegar mest er.  Það liggur 211 metra yfir sjávarmáli rétt við Þingvallaveginn",
     "priceText": null,
-    "seasonText": "Hefst 1. apríl og lýkur 30. september.",
-    "dailyHoursText": "Leyfilegt er að veiða frá kl. 7 til kl. 24.",
+    "seasonText": "Hefst 1. apríl og lýkur 30. september",
+    "dailyHoursText": "Leyfilegt er að veiða frá kl. 7 til kl. 24",
     "rulesText": "Veiðmenn skulu hafa Veiðikortið á sér til að sýna veiðiverði þegar hann vitjar veiðimanna. Veiðimenn eru einnig vinsamlegast beðnir um að fylla út Veiðiskýrslu á vefnum og senda okkur með tölvupósti.\n\n2816 Natura Islands Vatn\n\nLeirvogsvatn, Mosfellsheiði, Gullbringu- og Kjósasýsla\n\nS-Lei\n\nYfirlitsmynd",
     "practicalInfoText": "Ekið er Þingvallaveg sem leið liggur um 10 km má sjá Leirvogsvatn á hægri hönd á austurleið. Vatnið er í um 30 km fjarlægð frá Reykjavík.\n\nLeirvogsvatn er um 1,2 km2 að flatarmáli og hefur 16 metra dýpi, þegar mest er. Það liggur 211 metra yfir sjávarmáli rétt við Þingvallaveginn. Leirvogsá rennur úr vatninu en bannað er að veiða í ánni.\n\nVeiði er aðeins heimil í suðurhluta vatnsins. Stranglega bannað að veiða í norðurhluta vatnins.\n\nEkki er heimilt að tjalda við vatnið en við bendum á ferðaþjónustur í nágrenninu auk þess sem stutt er að gistingu.",
     "latitude": 64.1994,
     "longitude": -21.465183333333332,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:ljosavatn",
@@ -1753,7 +1721,7 @@
     "imageAlt": "Ljósavatn",
     "imageSource": "Veiðikortið page image",
     "region": "Norðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1764,7 +1732,7 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Ljósavatn er í 105 m hæð yfir sjávarmáli og mælist um 3,2 km2 að flatarmáli. Mesta dýpi er um 35m og er meðaldýpi um 10 m. Það er mjög vinsælt meðal veiðimanna og mjög hentugt fyrir fjölskyldur. Þjóðvegur 1 liggur…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt dagsleyfi í nokkur vötn",
     "priceText": null,
     "seasonText": "Hefst 20. maí og lýkur 30. september",
     "dailyHoursText": "Heimilt er að veiða allan sólarhringinn",
@@ -1773,7 +1741,7 @@
     "latitude": 65.70721666666667,
     "longitude": -17.67965,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:medalfellsvatn",
@@ -1785,8 +1753,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/09/FL_Medalf.jpg",
     "imageAlt": "Meðalfellsvatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Suðurland",
-    "waterType": "svæði",
+    "region": "Höfuðborgarsvæðið",
+    "waterType": "vatn",
     "species": [
       "lax",
       "sjóbirtingur",
@@ -1798,16 +1766,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er um 2 km2 að stærð og um 18 m. djúpt þar sem það er dýpst. Vatnið stendur í 46 metra hæð yfir sjávarmáli. Í vatnið renna Sandsá og Flekkudalsá en úr því fellur Bugsa sem rennur í Laxá í Kjós. Lax og…",
+    "shortDescription": "Vatnið er um 2 km2 að stærð og um 18 m.  djúpt þar sem það er dýpst.  Vatnið stendur í 46 metra hæð yfir sjávarmáli",
     "priceText": null,
-    "seasonText": "Hefst 19. apríl og lýkur 20. september.",
-    "dailyHoursText": "Frá kl. 7:00 - 22:00",
+    "seasonText": "Hefst 19. apríl og lýkur 20. september",
+    "dailyHoursText": "Daglega frá kl. 7:00 - 22:00",
     "rulesText": "Snyrtileg umgengni er skilyrði og bannað er að skilja eftir rusl við vatnið.\n\nAllur akstur utan vega og slóða er stranglega bannaður og verður slíkt athæfi kært til lögreglu. Veiðikortshafar sem valda umhverfisspjöllum eru ábyrgir gagnvart landeiganda.\n\nVeiðiskýrslur er einnig hægt að sækja á vef Veiðikortsins og prenta út. Ef veiðist fiskur, sem er merktur Veiðimálastofnun, ber að geta þess í veiðiskýrslu.\n\nBörn yngri en 14 ára veiða frítt í fylgd með korthafa.\n\nLÖG OG RÉTTUR VIÐ MEÐALFELLSVATN - UPPLÝSINGAR FRÁ WWW.KJOS.IS http://www.kjos.is/allar-frettir/nr/72056/\n\nUppá síðkastið hefur orðið vart nokkrar misklíðar varðandi framkvæmdir og umgengni við Meðalfellsvatn. Annarsvegar lítur ágreiningurinn að leyfisskyldum framkvæmdum við vatnið, sem gerðar hafa verið athugasemdir við og hinsvegar umgengni og rétt veiðimanna til að athafna sig við vatnið.\n\nVert er að minna á helstu reglur sem gilda varðandi ofangreint.\n\nMeðalfellsvatn er á Náttúruminjaskrá og nýtur sérstakrar verndar. Í aðalskipulagi er 50 m. breið ræma umhverfis vatnið skilgreint sem “opið svæði” þar sem ekki er gert ráð fyrir mannvirkjagerð m.t.t. undantekningum.\n\nAllar framkvæmdir við vatnið eru leyfisskildar til byggingar-og skipulagsyfirvalda í Kjósarhreppi samkvæmt skipulags-og byggingarlögum, lögum um lax og silungsveiði og náttúruverndarlögum. Gildir þar einu hvort um sé að ræða hverskonar byggingar eða röskun á fjöruborði með greftri eða efnisburði í vatnið og í fjöru þess.\n\nÞá er rétt að árétta að öll lögmæt umferð gangandi manna er heimill umhverfis vatnið og óheimilt er að framkvæma nokkuð það sem hindrar slíka umferð. Þurfi að girða í vatn út, skal hlið eða stigi vera á girðingunni. Veiðimenn eru því í fullum rétti til veiða, hvort sem er á vatnsbakka framan við sumarhús eða hvarvetna annarstaðar.\n\nUmferð ökutækja er hinsvegar óheimil utan hefðbundinna slóða og í fjöru vatnsins einsog hver annar utanvegaakstur.",
     "practicalInfoText": "Um 50 km. akstur er frá Reykjavík. Keyrt er inn í Hvalfjörð rétt áður en komið er að Hvalfjarðargöngum. Síðan er beygt til hægri og ekið frá Hvalfirði um veg nr. 461 sem liggur að vatninu.\n\nVatnið er um 2 km2 að stærð og um 18 m. djúpt þar sem það er dýpst. Vatnið stendur í 46 metra hæð yfir sjávarmáli. Í vatnið renna Sandsá og Flekkudalsá en úr því fellur Bugsa sem rennur í Laxá í Kjós. Lax og sjóbirtingur gengur úr Laxá í gegnum Bugðu og í vatnið.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Meðalfellsvatni\n\nKaupa\n\nHeimilt er að veiða í öllu vatninu. Bannað er þó að veiða nær ósum en 50 metra. Athugið að veiðisvæðið við upptök Bugðu er vaktað og séu veiðarfæri nær ós en 50 metrum mega menn búast við fjársektum og upptöku veiðarfæra.\n\nHægt er að kaupa gistingu í nágrenninu. Má þar nefna Ferðaþjónustuna Hjalla og Eyrarkot.\n\nMjög þægilega aðkoma er á vatninu og er tilvalið fyrir fjölskylduna að skjótast í vatnið til veiða.\n\nVeiðiverðir við Laxá í Kjós og Bugðu sinna veiðieftirliti í Meðalfellsvatni.",
     "latitude": 64.3162,
     "longitude": -21.596333333333334,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:ofaerur",
@@ -1830,16 +1798,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Blautulón má finna á hálendinu í Skaftártungnaafrétti. Lónin eru tvö. Mest er af smábleikju í lónunum en þar má einnig veiða stærri ránbleikjur og stöku urriða.\n\nBlautulón eru fjölskylduvænn veiðistaður þar sem mikið af…",
+    "shortDescription": "Blautulón má finna á hálendinu í Skaftártungnaafrétti.  Lónin eru tvö",
     "priceText": null,
-    "seasonText": "Veiði er heimilt allt árið um kring.",
+    "seasonText": "Veiði er heimilt allt árið um kring",
     "dailyHoursText": "Heimilt er að veiða allan sólarhringinn",
     "rulesText": "Utanvega akstur er stranglega bannaður. Bannað er að veiða í Nyrðri- Ófæru, aðeins í útfalli\n\nBátanotkun er heimil og einnig eru hundar velkomnir.\n\nLeyfilegt er að tjalda en ganga skal vel um svæðið og hirða skal allt rusl eftir sig\n\nHandhöfum Veiðikortsins er heimilt að fara beint niður að vatni en hafa Veiðikortið sýnilegt í bílglugga til þæginda fyrir veiðivörð. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.",
     "practicalInfoText": "Lónin eru í um 220 km frá höfuðborgarsvæðinu. Farin er Fjallabaksleið nyrðri. Annars vegar eftir vegi F208 í gegnum Landmannalaugar eða þá í gegnum Skaftártungu.\n\nSé farið í gegnum Landamannalaugar er beygt af Fjallabaksleið F208 inn á Langasjósveg og eknir um 11 km þar til beygt er til hægri. Þaðan erum 2 km akstur að austara lóninu.\n\nEinnig er hægt að leggja við Nyrðri-Ófæru og labba upp að vestari lóninu. Það er um 500 m ganga.\n\nBlautulón má finna á hálendinu í Skaftártungnaafrétti. Lónin eru tvö. Mest er af smábleikju í lónunum en þar má einnig veiða stærri ránbleikjur og stöku urriða.\n\nBlautulón eru fjölskylduvænn veiðistaður þar sem mikið af fiski og flestir sem þar veiða fá fisk. Hér má veiða eins mikið og hver vill.\n\nVið Blautulón ertu umvafinn eldfjallalandslagi, svörtum söndum og mosagrónum breiðum.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Blautulón\n\nKaupa\n\nLeyfilegt er að veiða í báðum lónunum öllum og útfalli í Nyrðri-Ófæru, ekki í ánni sjálfri.\n\nTjalda má endurgjaldslaust á svæðinu, en ganga skal vel um og hirða allt rusl eftir sig. Athuga skal að á svæðinu er ekki skipulagt tjaldstæði né hreinlætis aðstaða.\n\nHægt er að fá gistingu í fjallaskálanum Skælingum sem og Hálendistmiðstöðinni Hólaskjóli\n\nLeigutaki ber enga ábyrgð á tjóni er korthafar Veiðikortsins kunna að verða fyrir eða öðru sem upp kann að koma í tengslum við veru veiðimanna á viðkomandi svæði.\n\nHlynur Björn Pálmason, sími 824-1128",
     "latitude": 64.02318333333334,
     "longitude": -18.53775,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:saudlauksdalsvatn",
@@ -1851,8 +1819,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/09/FL_saudlauk.jpg",
     "imageAlt": "Sauðlauksdalsvatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": "Vestfirðir",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1862,16 +1830,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er um 0,35 km2 að flatarmáli og stendur í um 10m hæð yfir sjó. Gott aðgengi er að vatninu, en aðeins má aka eftir merktum slóðum.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa",
+    "shortDescription": "Vatnið er um 0,35 km2 að flatarmáli og stendur í um 10m hæð yfir sjó. Gott aðgengi er að vatninu, en aðeins má aka eftir merktum slóðum.",
     "priceText": null,
-    "seasonText": "Frá því ísa leysir fram á haust.",
+    "seasonText": "Frá því ísa leysir fram á haust",
     "dailyHoursText": "Heimilt að veiða allan sólarhringinn",
     "rulesText": "Vinsamlegast skiljið ekki eftir rusl og stranglega bannað er að aka utan vegar. Bannað er að veiða í ánni sem rennur í vatnið. Börn yngri en 14 ára veiða frítt í fylgd með korthafa. Veiðimenn fara beint inn að vatni og hafi Veiðikortið við höndina þegar veiðivörður vitjar gesta. Veiðimönnum ber að skila veiðiskýrslum á netinu, www.veidikortid.is",
     "practicalInfoText": "Vegalengdin frá Reykjavík er u.þ.b. 380 km og 28 km frá Patreksfirði. Með því að taka ferjuna Baldur yfir Breiðafjörð er hægt að stytta vegalengdina til muna, eða um 150 km.\n\nVatnið er um 0,35 km2 að flatarmáli og stendur í um 10m hæð yfir sjó. Gott aðgengi er að vatninu, en aðeins má aka eftir merktum slóðum.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa\n\nÞað má veiða í öllu vatninu, en aðallega er veitt þeim megin sem komið er að vatninu. Vatnið hentar vel fyrir fluguveiði, enda er auðvelt að vaða aðeins út í gulum sandinum.\n\nHeimilt er að tjalda við vatnið á eigin ábyrgð ,en engin hreinlætisaðstaða er á svæðinu. Þó stendur til að koma upp hreinlætisaðstöðu þar fyrir sumarið. Einnig er að kaupa gistingu á gistiheimilum á Patreksfirði.",
     "latitude": 65.54295,
     "longitude": -23.986483333333332,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:skriduvatn",
@@ -1883,8 +1851,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/10/Fi_Skriduvatn-e1635099965516.jpg",
     "imageAlt": "Skriðuvatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": "Norðurland",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1894,16 +1862,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Skriðuvatn er um 1,25 km2 að flatarmáli og er um 10 m. Vatnið er í 155 m. hæð yfir sjávarmáli. Í vatnið renna Öxará, Forvaðará og Vatnsdalsá og úr Skriðuvatni fellur Múlaá.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt dagsleyfi í Þveit",
     "priceText": null,
-    "seasonText": "Hefst 1. júní og lýkur 30. september.",
-    "dailyHoursText": "Heimilt er að veiða frá kl. 8:00 til 22:00.",
+    "seasonText": "Hefst 1. júní og lýkur 30. september",
+    "dailyHoursText": "Heimilt er að veiða frá kl. 8:00 til 22:00",
     "rulesText": "Handhafar Veiðikortsins geta farið beint til veiða, en verða að hafa Veiðikortið við höndina til að sýna veiðiverði, þegar hann vitjar veiðimanna. Eitt barn undir fermingu veiðir frítt – greiði fullorðinn veiðileyfi eða sýni Veiðikortið.",
     "practicalInfoText": "Vatnið er í 35 km. fjarlægð frá Egilsstöðum, 50 km. frá Breiðdalsvík og 50 km. frá Djúpavogi um Öxi. Vegalengdin frá Reykjavík er um 595 km.\n\nSkriðuvatn er um 1,25 km2 að flatarmáli og er um 10 m. Vatnið er í 155 m. hæð yfir sjávarmáli. Í vatnið renna Öxará, Forvaðará og Vatnsdalsá og úr Skriðuvatni fellur Múlaá.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Þveit\n\nKaupa\n\nVatnasvæðið, sem um ræðir, er Skriðuvatn að austanverðu í landi Vatnsskóga. Það er svæðið þar sem Skriðuvatn fellur í Múlaá og öll strandlengja vatnsins að austan, allt að Öxará. Einnig er veiðiréttur í austanverðri Múlaá, frá upptökum árinnar, og 250 metra niður ána allt að merktum landamerkjastólpa. Einnig er heimilt að veiða í Öxará að austanverðu þar sem áin fellur í Skriðuvatn og upp eftir ánni. Ákjósanlegt er að stunda veiðar með flugu í lóni sem fellur úr vatninu og í Múlaá.\n\nVeiðikortshafi hefur heimild til að tjalda endurgjaldslaust í landi Vatnsskóga, enda gangi hann snyrtilega um land og gróður. Þar er þó hvorki að finna skipulagt tjaldstæði né hreinlætisaðstöðu. Einnig er hægt að kaupa gistingu á Egilsstöðum, Breiðdalsvík og Djúpavogi.\n\nÍvar Björgvinsson, Vatnsskógum í Skriðdal.",
     "latitude": 64.95981666666667,
     "longitude": -14.63455,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:slettuhlidarvatn",
@@ -1916,23 +1884,23 @@
     "imageAlt": "Sléttuhlíðarvatn",
     "imageSource": "Veiðikortið page image",
     "region": "Norðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
     ],
     "allowedBaits": [],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er 0,76 km2 að stærð og í 14 m. hæð yfir sjávarmáli.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Sléttuhlíðarvatn\n\nKaupa",
+    "shortDescription": "Vatnið er 0,76 km2 að stærð og í 14 m. hæð yfir sjávarmáli. Dagsleyfi",
     "priceText": null,
-    "seasonText": "Hefst 1. maí og lýkur 20. september.",
-    "dailyHoursText": "Heimilt er að veiða frá kl. 8:00 til 24:00.",
+    "seasonText": "Hefst 1. maí og lýkur 20. september",
+    "dailyHoursText": "Heimilt er að veiða frá kl. 8:00 til 24:00",
     "rulesText": "Góð umgengni er skilyrði. Allur akstur um landið skal vera í samráði við landeigenda. Veiðimenn eru beðnir um að skilja ekki eftir sig rusl. Korthafar þurfa að skrá sig á Hrauni og sýna þarf bæði Veiðikortið og persónuskilríki. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.",
     "practicalInfoText": "Vegalengd frá Reykjavík er um 360 km., 21 km. frá Hofsósi og 50 km. frá Sauðárkróki\n\nVatnið er 0,76 km2 að stærð og í 14 m. hæð yfir sjávarmáli.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Sléttuhlíðarvatn\n\nKaupa\n\nEingöngu er leyfilegt að veiða í landi Hrauns. Skilti eru við veiðimörk.\n\nHeimilt er að tjalda við vatnið í samráði við veiðivörð auk þess sem hægt er að leigja veiðihús í nágrenni við vatnið.\n\nLandeigandi ber enga ábyrgð á tjóni er korthafar Veiðikortsins kunna að verða fyrir, eða öðru sem upp kann að koma í tenglsum við veru veiðimanna á viðkomandi veiðisvæði.\n\nMagnús Pétursson á Hrauni, GSM: 618-0402",
     "latitude": 66.04013333333333,
     "longitude": -19.333716666666668,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:svinavatn-i-hunathingi",
@@ -1945,7 +1913,7 @@
     "imageAlt": "Svínavatn í Húnaþingi",
     "imageSource": "Veiðikortið page image",
     "region": "Norðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -1956,16 +1924,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er 12 km2 að stærð, og liggur í 130 m hæð yfir sjávarmáli. Mesta dýpi er um 30 metrar.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa",
+    "shortDescription": "Vatnið er 12 km2 að stærð, og liggur í 130 m hæð yfir sjávarmáli. Mesta dýpi er um 30 metrar. Dagsleyfi",
     "priceText": null,
-    "seasonText": "Veiðitímabilið stendur yfir frá 1. júní til 31. ágúst.",
+    "seasonText": "stendur yfir frá 1. júní til 31. ágúst",
     "dailyHoursText": "Leyfilegt er að veiða frá kl. 07:00 til 24:00",
     "rulesText": "Veiðimenn eru beðnir um að skilja ekki eftir sig rusl. Akstur utan vega er stranglega bannaður. Veiðimenn geta farið til veiða án þess að tilkynna komu sýna sérstaklega, en þurfa að hafa Veiðikortið við höndina þegar veiðivörður vitjar veiðimanna.",
     "practicalInfoText": "Frá Reykjavík eru um 240 km í vatnið. Farið er út af þjóðvegi nr. 1 við þjóðveg 724 og þaðan eru um 9 km. að vatninu.\n\nVatnið er 12 km2 að stærð, og liggur í 130 m hæð yfir sjávarmáli. Mesta dýpi er um 30 metrar.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa\n\nVeiðisvæðið er fyrir landi Stóra-Búrfells og Reykja í Húnavatnshreppi, eins og meðfylgjandi kort sýnir. Veiðikortshafar geta farið til veiða án þess að tilkynna komu sýna sérstaklega en þurfa að hafa Veiðikortið við höndina þegar veiðivörður vitjar veiðimanna. Athugið að slóðar geta verið varasamir í bleytu. Fara þarf í gegnum blátt hlið , ekið í gegnum tún, niður að vatninu, þegar veiða á í landi Stóra-Búrfells.\n\nHægt er að kaupa gistingu á Hótel Húnavöllum í uppábúnum rúmum með morgunverði eða svefnpokapláss auk þess sem þar eru góð tjaldstæði. Símar: 453-5600 og 898 -4685\n\ninfo@hotelhunavellir.is\n\nEf veiðimenn vilja fá upplýsingar á staðnum geta þeir hringt í ábúendur: Grím á Reykjum í GSM: 892-4012 og Jón á Stóra-Búrfelli í GSM: 868-3750.",
     "latitude": 65.54025,
     "longitude": -20.176583333333333,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:sydridalsvatn",
@@ -1977,8 +1945,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/09/FL_SYDRI.jpg",
     "imageAlt": "Syðridalsvatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": "Vestfirðir",
+    "waterType": "vatn",
     "species": [
       "lax",
       "sjóbirtingur",
@@ -1989,7 +1957,7 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Hér er um mjög gott veiðivatn að ræða. Það er um 1 km2 að stærð og liggur um þrjá metra fyrir ofan sjávarmál. Þangað gengur mikið af sjógengnum fiski, s.s. sjóbleikju, sjóbirtingi og laxi. Aðal veiðisvæðið er við ósa…",
+    "shortDescription": "Hér er um mjög gott veiðivatn að ræða.  Það er um 1 km2 að stærð og liggur um þrjá metra fyrir ofan sjávarmál.  Þangað gengur mikið af sjógengnum fiski, s",
     "priceText": null,
     "seasonText": "Frá 1. júní til 20. september",
     "dailyHoursText": "Heimilt að veiða frá kl. 7:00 til kl. 22:00",
@@ -1998,7 +1966,7 @@
     "latitude": 66.12976666666667,
     "longitude": -23.248333333333335,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:saenautavatn",
@@ -2010,8 +1978,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/09/FL_SAENAUTA.jpg",
     "imageAlt": "Sænautavatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": "Norðurland",
+    "waterType": "vatn",
     "species": [
       "bleikja"
     ],
@@ -2020,16 +1988,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er með djúpan skurð í miðju, dýpst 24 m. Úr vatninu rennur Lónskvísl, sem fellur í Hofsá í Vopnafirði.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Sænautavatn\n\nKaupa",
+    "shortDescription": "Vatnið er með djúpan skurð í miðju, dýpst 24 m. Úr vatninu rennur Lónskvísl, sem fellur í Hofsá í Vopnafirði. Dagsleyfi",
     "priceText": null,
-    "seasonText": "Hefst 1. maí og lýkur 30. september.",
-    "dailyHoursText": "Heimilt er að veiða allan sólarhringinn.",
+    "seasonText": "Hefst 1. maí og lýkur 30. september",
+    "dailyHoursText": "Heimilt er að veiða allan sólarhringinn",
     "rulesText": "Vinsamlegast skiljið ekki eftir rusl og stranglega bannað er að aka utan vegar. Korthafar skulu skrá sig í Sænautaseli og sýna þarf bæði Veiðikortið og persónuskilríki. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.",
     "practicalInfoText": "Vatnið er um 600 km. frá Reykjavík, 74 km. frá Egilsstöðum 13 km, frá þjóðvegi eitt.\n\nVatnið er með djúpan skurð í miðju, dýpst 24 m. Úr vatninu rennur Lónskvísl, sem fellur í Hofsá í Vopnafirði.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Sænautavatn\n\nKaupa\n\nVeiða er heimil í öllu vatninu.\n\nHægt er að kaupa aðgang að tjaldstæði. Einnig er hægt er að kaupa gistingu á Skjöldóflsstöðum (um 20 km.) eða á Aðalbóli, sem er efsti bærinn í Hrafnkelsdal.\n\nHægt er að kaupa veitingar á Sænautaseli t.d. kaffi og lummur. Með fyrirvara er hægt að fá mat keyptan.\n\nLilja Óladóttir, Sænautaseli. Sími: 892-8956 eða 853-6491.",
     "latitude": 65.26376666666667,
     "longitude": -15.51645,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:urridavatn",
@@ -2041,8 +2009,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/10/FI_URRIDAVATN2-e1635100144913.jpg",
     "imageAlt": "Urriðavatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Austurland",
-    "waterType": "svæði",
+    "region": "Norðurland",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -2052,16 +2020,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er u.þ.b. 1,1 km² að flatarmáli. Mest dýpt er um 15 m. og stendur vatnið í um 40 m. hæð yfir sjávarmáli. Hafralónslækur og Merkilækur renna í Urriðavatn, en þaðan er útfall Urriðavatnslækjar.\n\nDagsleyfi\n\nHér…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt dagsleyfi í Urriðavatn",
     "priceText": null,
     "seasonText": "Allt árið um kring",
-    "dailyHoursText": "Heimilt er að veiða frá morgni til kvölds.",
+    "dailyHoursText": "Heimilt er að veiða frá morgni til kvölds",
     "rulesText": "Vinsamlegast skiljið ekki eftir rusl og stranglega bannað er að aka utan vegar. Veiðikorthafar þurfa að skrá sig á bænum Urriðavatni og sýna nauðsynleg skilríki. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.",
     "practicalInfoText": "Vatnið er í 664 km. fjarlægð frá Reykjavík og 5 km. frá Egilsstöðum. Þjóðvegir 1 og 925 liggja við vatnið. Greiðfært er fyrir alla bíla að vatninu.\n\nVatnið er u.þ.b. 1,1 km² að flatarmáli. Mest dýpt er um 15 m. og stendur vatnið í um 40 m. hæð yfir sjávarmáli. Hafralónslækur og Merkilækur renna í Urriðavatn, en þaðan er útfall Urriðavatnslækjar.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Urriðavatn\n\nKaupa\n\nVeiða má í öllu vatninu. Helstu veiðistaðir eru við ósa Hafralækjar og Urriðavatnslækjar, en einnig við hitaveitutanka og víðar.\n\nHægt er að kaupa tjaldstæði hjá Skipalæk sem er skammt frá Lagarfjóti. Ekki er heimilt að tjalda við vatnið.\n\nGott berjaland er í nágrenni við Urriðavatns auk þess sem Vök baðhús er við vatnið.\n\nJón Steinar Benjamínsson, Urriðavatni, s: 471-2060",
     "latitude": 65.3094,
     "longitude": -14.4363,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:ulfljotsvatn",
@@ -2074,23 +2042,23 @@
     "imageAlt": "Úlfljótsvatn",
     "imageSource": "Veiðikortið page image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
     ],
     "allowedBaits": [],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er bergvatn, enda afrennsli Þingvallavatns. Töluverður straumur er í vatninu þar sem gegnumrennsli er að meðaltali 90 þúsund lítrar á sekúndu. Vatnið er um 4 km2 að stærð og yfir 20 m. djúpt þar sem það er dýpst.…",
+    "shortDescription": "Rétt er að benda á heimasíðu Veiðifélagas Úlfljótsvatns, en hún er http://ulfljotsvatn.wordpress.com/ og má þar finna frekari upplýsingar um svæðið.",
     "priceText": null,
-    "seasonText": "Hefst 1. maí og lýkur 30. september.",
-    "dailyHoursText": "Frá kl. 7:00 - 23:00",
+    "seasonText": "Hefst 1. maí og lýkur 30. september",
+    "dailyHoursText": "Daglega frá kl. 7:00 - 23:00",
     "rulesText": "Allir veiðimenn þurfa að tilkynna sig ÁÐUR EN FARIÐ ER TIL VEIÐA í þjónustuhúsi á tjaldsstæði. Skráningarbók er í aðalsal og þar er alltaf opið inn. Skrá þarf allan afla að lokinni veiði í veiðibók í þjónustuhúsi á tjaldsstæðinu eða með því að smella hér fyrir rafræna skráningu. Snyrtileg umgengni er skilyrði og bannað er að skilja eftir rusl við vatnið.\n\nAllur akstur utan vega og slóða er stranglega bannaður og verður slíkt athæfi kært til lögreglu. Veiðikortshafar sem valda umhverfisspjöllum eru ábyrgir gagnvart landeiganda.\n\nVeiðiskýrslur er einnig hægt að sækja á vef Veiðikortsins og prenta út. Ef veiðist fiskur, sem er merktur Veiðimálastofnun, ber að geta þess í veiðiskýrslu.\n\nEkki er heimilt að koma með eigin báta til veiða í Úlfljótsvatni nema í samráði við landeigendur á hverjum stað.\n\nBörn yngri en 14 ára veiða frítt í fylgd með korthafa.\n\nNánari upplýsingar um svæðið má finna á heimasíðu Veiðifélags Úlfljótsvatns með því að smella hér.",
     "practicalInfoText": "Um 65 km. akstur er frá Reykjavík ef farið er um Hellisheiði eða Þingvelli en 40 km. ef farin er svokölluð Nesjavallaleið.\n\nVatnið er bergvatn, enda afrennsli Þingvallavatns. Töluverður straumur er í vatninu þar sem gegnumrennsli er að meðaltali 90 þúsund lítrar á sekúndu. Vatnið er um 4 km2 að stærð og yfir 20 m. djúpt þar sem það er dýpst. Úlfljótsvatn stendur í 80 metra hæð yfir sjávarmáli en til samanburðar er Þingvallavatn í 100,5 metra hæð.\n\nRétt er að benda á heimasíðu Veiðifélagas Úlfljótsvatns, en hún er http://ulfljotsvatn.wordpress.com/ og má þar finna frekari upplýsingar um svæðið.\n\nDagsleyfi\n\nHér getur þú keypt stök veiðileyfi í ýmis vötn\n\nKaupa\n\nVeiðistaðir\n\nfrá Árna Kristni Skúlasyni\n\nSkoða\n\nBandalag íslenskra skáta og Skógræktarfélag Íslands eiga jörðina Úlfljótsvatn en henni tilheyrir um helming vatnsins. Heimilt er að veiða í landi skátanna og skógræktarinnar. Veiðisvæðið nær í norður að landamerkjum við Steingrímsstöð og í suðri að landamerkjum við Írafoss. Merkingar aðgreina hvar má veiða. Á síðastliðnum árum gilti Veiðikortið fyrir landi Efri-Brúar, austantil við vatnið, en nú er sem fyrr segir veiðisvæðið umtalsvert stærra við vestari hluta vatnsins. Í Efra-Sogi eru viðkvæmar hrigningarstöðvar stórurriðans. Til að vernda þann stofn er öll veiði í árfarvegi Efra-Sogs bönnuð. Svæðið er vaktað með myndavélum og veiðiþjófar verða kærðir. Þá er minnt á að veiði við stíflumannvirki og stöðvarhús Landsvirkjunnar er bönnuð. Þau svæði eru einnig vöktuð með myndavélum og starfsmönnum Landsvirkjunar og veiðimönnum í Úlfljótsvatni. Hér er mynd af svæðinu; ATH. AÐ SVÆÐI 2 ER EKKI INN Í VEIÐIKORTINU.\n\nHægt er að kaupa gistinu á skipulögðu tjaldsvæði Skátanna, en þar er mjög góð aðstaða til útilegu. Frekari upplýsingar má finna á www.ulfljotsvatn.is , meðal annars hvað snertir margs konar afþreyingu á staðnum, s.s. bátaleigu og þess háttar.\n\nFrábær dvalarstaður fyrir fjölskylduna að dvelja en margt er í boði á svæðinu fyrir alla meðlimi hennar. Nánari upplýsingar á www.ulfljotsvatn.is\n\nUmsjónaraðilar á skátasvæðinu sjá um veiðieftirlit.",
     "latitude": 64.10006666666666,
     "longitude": -21.04965,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:vatnsdalsvatn",
@@ -2102,8 +2070,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/09/FL_Vatnsdalsvatn.jpg",
     "imageAlt": "Vatnsdalsvatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": "Vestfirðir",
+    "waterType": "vatn",
     "species": [
       "lax",
       "bleikja"
@@ -2113,7 +2081,7 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er 2,2 km2 að flatarmáli. Mjög aðdjúpt er vestan megin við vatnið en aðgrynnra að austan. Það er um 8 m. yfir sjávarmáli og er mesta dýpi um 30 m. Vatnið er um 2,6 km að lengd og um 1 km þar sem það er breiðast.…",
+    "shortDescription": "Vatnið er 2,2 km2 að flatarmáli.  Mjög aðdjúpt er vestan megin við vatnið en aðgrynnra að austan.  Það er um 8 m",
     "priceText": null,
     "seasonText": "Frá 1. júní til 20. september",
     "dailyHoursText": "Heimilt að veiða frá kl. 7:00 til kl. 23:00",
@@ -2122,7 +2090,7 @@
     "latitude": 65.59356666666666,
     "longitude": -23.125,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:vestmannsvatn",
@@ -2134,8 +2102,8 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/09/FL_Vestmannsvatn.jpg",
     "imageAlt": "Vestmannsvatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Vesturland",
-    "waterType": "svæði",
+    "region": "Norðurland",
+    "waterType": "vatn",
     "species": [
       "lax",
       "bleikja",
@@ -2146,7 +2114,7 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er um 2.4 km2 að flatarmáli og um þriggja metra djúpt að meðaltali. Mesta dýpi er um 10 m.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í ýmis vötn\n\nKaupa",
+    "shortDescription": "Vatnið er um 2.4 km2 að flatarmáli og um þriggja metra djúpt að meðaltali. Mesta dýpi er um 10 m. Dagsleyfi",
     "priceText": null,
     "seasonText": "Hefst 1. apríl og lýkur 30. september",
     "dailyHoursText": "Heimilt er að veiða frá morgni til kvölds",
@@ -2155,7 +2123,7 @@
     "latitude": 65.79383333333334,
     "longitude": -17.431716666666667,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:vifilsstadavatn",
@@ -2168,23 +2136,23 @@
     "imageAlt": "Vífilsstaðavatn",
     "imageSource": "Veiðikortið page image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
     ],
     "allowedBaits": [],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er í 38 m. hæð yfir sjávarmáli og mælist um 0,27 km2 að flatarmáli. Það er mjög vinsælt meðal veiðimanna og þykir mörgum ómissandi að fara þangað á vorin til að fá fyrstu tökur ársins, en einnig til að fara yfir…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt dagsleyfi í ýmis vötn",
     "priceText": null,
-    "seasonText": "Hefst 1. apríl og lýkur 15. september.",
-    "dailyHoursText": "Heimilt er að veiða frá kl. 8:00 til 24:00.",
+    "seasonText": "Hefst 1. apríl og lýkur 15. september",
+    "dailyHoursText": "Heimilt er að veiða frá kl. 8:00 til 24:00",
     "rulesText": "Vífilsstaðavatn var friðlýst þann 2. nóvember 2007. Vatnið er í eigu og umsjón Garðabæjar og nýtur ákvæða laga um friðlýsingar sbr. lög um náttúruvernd nr. 60/2013. Veiðimenn og útivistarfólk er vinsamlegast beðið að ganga vel um svæðið og fylgja leiðbeiningum á skiltum friðlandsins. Hundar skulu vera í bandi, en um varptímann 15. apríl til 15. ágúst ríkir algjört hundabann í friðlandinu. Notkun vélbáta og kajaka óheimil. Stangaveiðimenn þurfa ekki að skrá sig áður en þeir halda til veiða en hafa Veiðikortið við höndina þegar veiðivörður óskar eftir því.\n\nÍtrekum óskir til veiðimanna að ganga vel um friðlandið og alls ekki henda taumi, krókum né rusli á jörðina þar sem það er stórhættulegt fuglalífinu.",
     "practicalInfoText": "Vatnið er við Vífilsstaði í Garðabæ.\n\nVatnið er í 38 m. hæð yfir sjávarmáli og mælist um 0,27 km2 að flatarmáli. Það er mjög vinsælt meðal veiðimanna og þykir mörgum ómissandi að fara þangað á vorin til að fá fyrstu tökur ársins, en einnig til að fara yfir veiðibúnaðinn fyrir sumarið. Þess má geta, að Vífilsstaðavatn er tilvalið til að æfa fluguköst.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í ýmis vötn\n\nKaupa\n\nHeimilt er að veiða frá suðurbakka vatnsins og austur með honum, að vestanverðu að bryggjunni (sjá kort). Gott er að veiða sunnanmegin í vatninu og undir hlíðinni að austanverðu.\n\nEkki er heimilt að tjalda við vatnið.\n\nLandeigandi ber enga ábyrgð á tjóni er korthafar Veiðikortsins kunna að verða fyrir, eða öðru sem upp kann að koma í tenglsum við veru veiðimanna á viðkomandi veiðisvæði.\n\nÁsta Leifsdóttir, landvörður S: 820-8580",
     "latitude": 64.24495,
     "longitude": -21.09038333333333,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:thingvallavatn",
@@ -2197,7 +2165,7 @@
     "imageAlt": "Þingvallavatn",
     "imageSource": "Veiðikortið page image",
     "region": "Suðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "lax",
       "bleikja",
@@ -2207,16 +2175,16 @@
       "fluga"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Þingvallavatn er í um 100 m. hæð yfir sjávarmáli og mælist um 84 km2 að flatarmáli. Mesta dýpi er um 114 m. Vatnið er eitt vinsælasta veiðivatn á landinu og á sér stóran hóp af fastagestum. Náttúrufegurð og saga gerir…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt dagsleyfi í Þingvallavatn",
     "priceText": null,
-    "seasonText": "Fluguveiðitímabil 20. apríl til 1. júní.",
+    "seasonText": "Fluguveiðitímabil 20. apríl til 1. júní",
     "dailyHoursText": "Heimilt er að veiða allan sólarhringinn",
     "rulesText": "Aðeins er heimtil að veiða með flugu frá 20. apríl til 31. maí og skal þá öllum urriða sleppt aftur í vatnið. Frá 1. júní hefst almennt veiðitímabil í vatninu þar sem heimilt er að veiða með flugu, spón og maðki.\n\nVeiðimenn og útivistarfólk eru vinsamlegast beðið að ganga vel um svæðið og skilja ekki eftir sig rusl. Óheimilt er að aka utan vega. Þingvallanefnd áskilur sér þann rétt að takmarka aðgang að vatninu gerist þess þörf. Veiðikortið gildir aðeins fyrir landi þjóðgarðsins að undanskildu landi Kárastaða. Vatnið er mjög kalt og eru menn beðnir um að fara að öllu með gát. Öll veiði úr bátum er bönnuð korthöfum Veiðikortsins. Börn yngri en 14 ára veiða frítt í fylgd með korthafa. Vegna rannsókna á urriða í Þingvallavatni eru veiðimenn beðnir að athuga hvort veiddir urriðar séu merktir. Merkin eru á baki urriðans neðan við bakuggann og geta verið einföld slöngumerki eða rafeindamerki. Framan af veiðitíma þegar urriðar veiðast helst í þjóðgarðinum þá er skylt að sleppa þeim að viðureign lokinni og reyndar hvatt til þess að gera það á öðrum veiðitímabilum einnig séu fiskarnir lífvænlegir. Fyrir merkta urriða gildir það sama, en áður en merktum urriða er sleppt þá er óskað eftir því við veiðimenn skrái hjá sér upplýsingar um númer merkisins ef þess er nokkur kostur. Þeim upplýsingum ásamt öðrum upplýsingum um fiskinn sem mögulega eru tiltækar s.s. um lengd hans er óskað eftir að sé skilað í þjónustumiðstöðina Þingvöllum eða til rannsóknarfyrirtækisins Laxfiska. Leiðbeiningar varðandi merkta urriða sem sleppt er má sjá með því að smella hér. Ef merktum fiski er landað (ekki sleppt), þá má fá upplýsingar um hvernig á að bera sig að með því að smella hér.",
     "practicalInfoText": "Vatnið er í um 50 km. fjarlægð frá Reykjavík.\n\nÞingvallavatn er í um 100 m. hæð yfir sjávarmáli og mælist um 84 km2 að flatarmáli. Mesta dýpi er um 114 m. Vatnið er eitt vinsælasta veiðivatn á landinu og á sér stóran hóp af fastagestum. Náttúrufegurð og saga gerir Þingvallavatn einstakt meðal vatna landsins. Mikið er að djúpum gjám í vatninu. Búið er að setja upp mjög góða aðstöðu fyrir veiðimenn og tjaldgesti við Vatnskot. Þar eru smáhýsi með snyrti- og eldunaraðstöðu og upplýsingum um vatnið og lífríki þess. Gott aðgengi er fyrir hreyfihamlaða við Vatnskot en þar má finna bryggjur.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Þingvallavatn\n\nKaupa\n\nHandhöfum Veiðikortsins er heimilt að veiða fyrir landi þjóðgarðsins frá Arnarfelli til og með Leirutá. Öll veiði í Öxaráós er bönnuð. Hægt er að fá kort yfir veiðisvæðið um leið og veiðimenn skrá sig í þjónustumiðstöð. Helstu veiðistaðir eru í Lambhaga, Vatnskoti, Vörðuvík, Öfugsnáða, Lambhaga Nautatanga og Hallvík. Veiðibann er í Ólafsdrætti frá 1. júlí til 31. ágúst vegna hrygningar bleikjunnar.\n\nTjaldleyfi er hægt að kaupa í þjónustumiðstöðinni. Einungis er leyfilegt að tjalda á sérmerktum tjaldstæðum. Óheimilt er að nota tjaldvagna eða fellihýsi á tjaldstæðinu í Vatnskoti.\n\nLandverðir þjóðgarðsins á Þingvöllum sinna eftirliti og veita upplýsingar. Hægt er að hafa samband við landverði í þjónustumiðstöð þjóðgarðsins á Leirum en einnig er landvörður staðsettur við vatnið með aðstöðu í Vatnskoti og sinnir eftirliti þaðan.",
     "latitude": 64.24495,
     "longitude": -21.09038333333333,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:thveit",
@@ -2228,7 +2196,7 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/09/FL_tveit.jpg",
     "imageAlt": "Þveit",
     "imageSource": "Veiðikortið page image",
-    "region": "Höfuðborgarsvæðið",
+    "region": "Austurland",
     "waterType": "svæði",
     "species": [
       "sjóbirtingur",
@@ -2240,16 +2208,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Vatnið er 0,91 km2 að flatarmáli, 2 m. hæð yfir sjávarmáli. Myllulækur og Skrápslækur renna í vatnið og Þveitarlækur úr því. Fiskgengt er á milli vatns og sjávar þannig að sjóbirtingur á þangað greiða leið.\n\nDagsleyfi…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt dagsleyfi í Þveit",
     "priceText": null,
-    "seasonText": "Hefst 1. apríl og lýkur 30. september.",
-    "dailyHoursText": "Heimilt er að veiða frá kl. 10:00 til 22:00.",
+    "seasonText": "Hefst 1. apríl og lýkur 30. september",
+    "dailyHoursText": "Heimilt er að veiða frá kl. 10:00 til 22:00",
     "rulesText": "Einungis má veiða í landi Stórulágar. Ekki er heimilt að veiða í útfalli Þveitarlækjar, sem er sameign Stórulágar og Stapa. Óheimilt er að vera með hunda við vatnið og notkun báta er óheimil án leyfis landeiganda. Veiðimenn þurfa ekki að skrá sig en vera með Veiðikortið tilbúið til að sýna veiðiverði. Mikið fuglalíf er við vatnið og stranglega bannað er að raska ró þeirra. Jafnframt ber veiðimönnum skylda til að ganga snyrtilega um og aka ekki utan vega. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.",
     "practicalInfoText": "Þveit er í um 450 km. fjarlægð frá Reykjavík og um 10 km. frá Höfn í Hornafirði. Vatnið liggur við þjóðveg 1, þannig að aðgangur er auðveldur.\n\nVatnið er 0,91 km2 að flatarmáli, 2 m. hæð yfir sjávarmáli. Myllulækur og Skrápslækur renna í vatnið og Þveitarlækur úr því. Fiskgengt er á milli vatns og sjávar þannig að sjóbirtingur á þangað greiða leið.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Þveit\n\nKaupa\n\nHeimilt er að veiða í landi Stórulágar, sem ræður yfir u.þ.b. helmingnum af vatninu. Veiðsvæðið má betur greina á tilfallandi korti.\n\nNýtt tjaldsvæði hefur verið opnað í næsta nágrenni, Tjaldsvæðið Myllulæk. Önnur gisting, Fosshótel Vatnajökli, er í um 2 km. fjarlægð frá Þveit.\n\nLandeigandi ber enga ábyrgð á tjóni er korthafar Veiðikortsins kunna að verða fyrir, eða öðru sem upp kann að koma í tenglsum við veru veiðimanna á viðkomandi veiðisvæði.\n\nSigurður Sigfinnsson á Stórulág hefur umsjón með vatninu.\n\nStórulág er staðsett um 2 km. norður af vatninu. s: 478-1353.",
     "latitude": 64.34421666666667,
     "longitude": -15.256216666666667,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:aedarvatn",
@@ -2262,7 +2230,7 @@
     "imageAlt": "Æðarvatn",
     "imageSource": "Veiðikortið page image",
     "region": "Norðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -2272,16 +2240,16 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Hraunhafnarvatn er stærsta vatnið á Melrakkasléttu eða 3,4 km2. Vatnið er dýpst um 4 m. og er í 2m. hæð yfir sjávarmáli. Hraunhafnará rennur í suðurenda vatnsins. Æðarvatn og Arnarvatn eru mun smærri.\n\nDagsleyfi\n\nHér…",
+    "shortDescription": "Dagsleyfi. Hér getur þú keypt stök leyfi í ýmis vötn",
     "priceText": null,
-    "seasonText": "Veiðitímabilið stendur yfir frá 1. maí til 31. ágúst.",
+    "seasonText": "stendur yfir frá 1. maí til 31. ágúst",
     "dailyHoursText": "Leyfilegt er að veiða allan sólarhringinn",
     "rulesText": "Handhöfum Veiðikortsins ber að vera með kortið og skilríki á sér og tilbúnir að sýna það veiðiverði þegar hann vitjar veiðimanna. Það er stranglega bannað að skilja eftir sig rusl og aka utan vega. Börn yngri en 14 ára veiða frítt í fylgd með korthafa. Óskað er eftir að því að menn sendi upplýsingar um afla með tölvupósti á netfangið veidikortid@veidikortid.is .",
     "practicalInfoText": "Fjarlægð er um 644 km. frá Reykjavík sé farið um Hólaheiði og 10 km. frá Raufarhöfn að Hraunhafnarvatni. Vatnasvæðið liggur við þjóðveg nr. 85. Hraunhafnarvatn er við þjóðveginn og liggur hann við vatnið á malarrifi sem er milli vatns og sjávar. Varðandi Æðarvatn þá liggur þjóðvegurinn rétt ofan við nyrðri enda vatnsins í u.þ.b. 100 m. fjarlægð og er ágætt að leggja bílum þar. Fyrir þá sem ætla í Arnarvatn þá er töluverð ganga þangað eða um 500 m.\n\nHraunhafnarvatn er stærsta vatnið á Melrakkasléttu eða 3,4 km2. Vatnið er dýpst um 4 m. og er í 2m. hæð yfir sjávarmáli. Hraunhafnará rennur í suðurenda vatnsins. Æðarvatn og Arnarvatn eru mun smærri.\n\nDagsleyfi\n\nHér getur þú keypt stök leyfi í ýmis vötn\n\nKaupa\n\nVeiði er heimil í landi Skinnalóns og má sjá merkingu á korti hvar má veiða. Bestu veiðistaðirnir í Hraunhafnarvatni eru við mölina og einnig með því að ganga inn með vatninu í átt að Hraunhafnará. Í Æðavatni er best að veiða á töngum, sem skaga út í vatnið á nokkrum stöðum. Mesta dýpt er u.þ.b. 3 mtr.\n\nLeyfilegt er að tjalda á eigin ábyrgð á gömlu túni við vatnið, en stutt er í mjög gott skipulagt tjaldstæði á Raufarhöfn. Einnig er hægt að athuga með gistingu á Hótel Norðurljósum eða á Gistihúsinu Hreiðrið www.nesthouse.is, sem er staðsett á Raufarhöfn.\n\nHalldór Þórólfsson S: 863-8468.",
     "latitude": 66.51908333333333,
     "longitude": -16.102183333333333,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   },
   {
     "id": "veidikortid:olvesvatn-skagaheidi",
@@ -2294,7 +2262,7 @@
     "imageAlt": "Ölvesvatn - Skagaheiði",
     "imageSource": "Veiðikortið page image",
     "region": "Norðurland",
-    "waterType": "svæði",
+    "waterType": "vatn",
     "species": [
       "bleikja",
       "urriði"
@@ -2305,15 +2273,15 @@
       "maðkur"
     ],
     "permitModel": "Veiðikortið",
-    "shortDescription": "Ölvesvatn er hið langstærsta á vatnasvæði Selár, en einnig má veiða í Fossvatni, Selvatni, Grunnutjörn, Andavatni og Stífluvatni, Eiðsá, Fossá, auk lækja sem renna á milli vatna. Ölvesvatn er um 2,8 km2 að stærð og…",
+    "shortDescription": "Ölvesvatn er hið langstærsta á vatnasvæði Selár, en einnig má veiða í Fossvatni, Selvatni, Grunnutjörn, Andavatni og Stífluvatni, Eiðsá, Fossá, auk lækja",
     "priceText": null,
-    "seasonText": "Veiðitímabilið veltur öllu jöfnu á veðri, en yfirleitt er ekki orðið fært upp að vatni fyrir en seinnihluta maí og stendur veiðitíminn yfirleitt fram í miðjan september, en þá veiðist minna af bleikju.",
+    "seasonText": "veltur öllu jöfnu á veðri, en yfirleitt er ekki orðið fært upp að vatni fyrir en seinnihluta maí og stendur veiðitíminn yfirleitt fram í miðjan september, en þá veiðist minna af bleikju",
     "dailyHoursText": "Heimilt er að veiða allan sólarhringinn",
     "rulesText": "Aðgengi að veiðisvæðinu er takmarkað og verður að hringja áður og panta áður en mætt er á staðinn. Bókanir með aðstöðuhúsi njóta forgangs.\n\nVeiðikortshafar þurfa að skrá sig í Hvalnesi og fá lykil að svæðinu. Sýna þarf Veiðikortið og skil­ríki. Netaveiði er stranglega bönnuð svo og meðferð skotvopna. Einnig er bann­að að skilja eftir sig rusl og aka utan vega. Börn yngri en 14 ára veiða frítt í fylgd með korthafa.  Í Hvalnesi fá veiði­menn veiði­skýrslur til út­­fyll­ing­ar og upp­lýs­ingar um svæðið. Veiðiskýrslum og lyklum ber að skila við lok veiða í Hvalnesi. Einnig þarf að ganga frá tjaldstæði á Hvalnesi ætli menn sér að vera yfir nótt.\n\nAthugið að svæðið er lokað fyrir öðrum en þeim sem hafa veiðileyfi/kort og börnum í fylgd korthafa undir 14 ára aldurs, þ.e.a.s. að fullorðnum einstaklingum er óheimilt að fara inn á svæðið nema með veiðileyfi eða Veiðikortið.",
     "practicalInfoText": "Fjarlægð er um 300 km. frá Reykjavík og 40 km. frá Sauðárkróki. Afleggjarinn frá Hvalnesi er um 6 km. jeppavegur að Ölvesvatni.\n\nÖlvesvatn er hið langstærsta á vatnasvæði Selár, en einnig má veiða í Fossvatni, Selvatni, Grunnutjörn, Andavatni og Stífluvatni, Eiðsá, Fossá, auk lækja sem renna á milli vatna. Ölvesvatn er um 2,8 km2 að stærð og nokkuð djúpt.\n\nDagsleyfi\n\nHér getur þú keypt dagsleyfi í Ölvesvatn\n\nKaupa\n\nVeiði er heimil á öllu vatnasvæðinu, þ.e.a.s. Ölvesvatni, Fossvatni, Selvatni, Heyvötnum, Grunnutjörn, Andavatni, Stífluvatni, Eiðsá, Fossá , auk lækja sem renna á milli vatna.\n\nHægt er að kaupa leyfi til að tjalda á Hvalnesi auk þess sem að við Ölvesvatn er hægt að leigja tvö aðstöðuhús með eldunar- og gistiaðstöðu fyrir allt að 6 manns í hvoru húsi. Þar er kamar. Aðstöðuhúsin þarf að panta með fyrirvara hjá umsjónarmanni í Hvalnesi í S: 453-6520 eða S: 893-7756 eða senda tölvupóst á netfangið hvalnes730@simnet.is.\n\nBjarni Egilsson og fjölskylda á Hvalnesi, S: 453-6520 or S: 893-7756. Hvalnes730@simnet.is.",
     "latitude": 65.96811666666666,
     "longitude": -20.049433333333333,
     "dataConfidence": "high",
-    "scrapedAt": "2026-04-25T22:21:48.706Z"
+    "scrapedAt": "2026-04-30T19:23:57.824Z"
   }
 ]

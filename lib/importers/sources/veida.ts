@@ -1,5 +1,8 @@
 import { fetchJson } from "../fetch";
 import {
+  buildListingDescription,
+  cleanDailyHoursText,
+  cleanSeasonText,
   extractLabeledValue,
   inferAllowedBaits,
   inferConfidence,
@@ -7,7 +10,6 @@ import {
   inferSpecies,
   inferWaterType,
   stripHtml,
-  toExcerpt,
 } from "../normalize";
 import type { ImportedSpotRecord } from "../../../types/imported-spot";
 
@@ -49,31 +51,38 @@ export async function importVeidaListings(scrapedAt: string): Promise<ImportedSp
 
   return listingCategories.map((category) => {
     const parent = roots.get(category.parent);
+    const cleanName = cleanCategoryName(category.name);
     const descriptionText = stripHtml(category.description);
     const sourceCategory = parent?.slug === "laxveidi" ? "laxveiði" : "silungsveiði";
-    const shortDescription = toExcerpt(descriptionText);
-    const seasonText = extractLabeledValue(descriptionText, ["Veiðitími", "Veiðitímabil", "Tímabil"]);
-    const species = inferSpecies(category.name, sourceCategory, descriptionText);
+    const shortDescription = buildListingDescription(cleanName, descriptionText, 155);
+    const seasonText = cleanSeasonText(
+      extractLabeledValue(descriptionText, ["Veiðitímabil", "Veiðitímabilið", "Tímabil", "Tímabilið"]),
+    );
+    const dailyHoursText = cleanDailyHoursText(
+      extractLabeledValue(descriptionText, ["Daglegur veiðitími", "Veiðitíminn", "Veiðitími"]),
+    );
+    const species = inferSpecies(cleanName, sourceCategory, descriptionText);
     const allowedBaits = inferAllowedBaits(descriptionText);
-    const region = inferRegion(category.name, descriptionText);
-    const waterType = inferWaterType(category.name, descriptionText, sourceCategory);
+    const region = inferRegion(cleanName, descriptionText);
+    const waterType = inferWaterType(cleanName, descriptionText, sourceCategory);
     const dataConfidence = inferConfidence({
       shortDescription,
       region,
       waterType,
       species,
       seasonText,
+      dailyHoursText,
     });
 
     return {
       id: `veida:${category.slug}`,
       sourceName: "veida.is",
       sourceUrl: category.permalink,
-      name: cleanCategoryName(category.name),
+      name: cleanName,
       slug: category.slug,
       sourceCategory,
       imageUrl: category.image?.src ?? category.image?.thumbnail ?? null,
-      imageAlt: category.image?.alt?.trim() || cleanCategoryName(category.name),
+      imageAlt: category.image?.alt?.trim() || cleanName,
       imageSource: "veida.is category image",
       region,
       waterType,
@@ -83,7 +92,7 @@ export async function importVeidaListings(scrapedAt: string): Promise<ImportedSp
       shortDescription,
       priceText: null,
       seasonText,
-      dailyHoursText: null,
+      dailyHoursText,
       rulesText: null,
       practicalInfoText: null,
       latitude: null,

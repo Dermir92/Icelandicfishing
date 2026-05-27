@@ -74,7 +74,9 @@ export function SpotCard({
         </div>
 
         <div className="space-y-4 p-5 sm:p-6">
-          <p className="text-[15px] leading-6 text-ink/68">{spot.shortDescription}</p>
+          <p className="overflow-hidden text-[15px] leading-6 text-ink/68 [display:-webkit-box] [-webkit-box-orient:vertical] [-webkit-line-clamp:3]">
+            {spot.shortDescription}
+          </p>
 
           <div className={cn("grid gap-3 text-sm text-ink/64", isList ? "sm:grid-cols-2 xl:grid-cols-4" : "grid-cols-2")}>
             <div className="rounded-[1.15rem] bg-mist/62 p-3.5">

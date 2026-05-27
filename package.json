@@ -13,6 +13,7 @@
     "clsx": "latest",
     "leaflet": "latest",
     "lucide-react": "latest",
+    "mapbox-gl": "^3.24.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",

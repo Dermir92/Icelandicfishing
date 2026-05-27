@@ -70,13 +70,14 @@ function MultiSelect({
     .map((option) => option.label);
 
   return (
-    <div ref={containerRef} className="relative grid gap-2">
+    <div ref={containerRef} className="relative z-[70] grid gap-2">
       <span className="text-[12px] font-semibold uppercase tracking-[0.16em] text-white">
         {label}
       </span>
 
       <button
         type="button"
+        aria-expanded={open}
         onClick={() => setOpen((current) => !current)}
         className="flex h-12 w-full items-center justify-between rounded-[1rem] border border-white/18 bg-white/12 px-4 text-left text-sm font-semibold text-white shadow-[0_18px_36px_rgba(5,19,27,0.18)] backdrop-blur transition hover:bg-white/16"
       >
@@ -87,7 +88,7 @@ function MultiSelect({
       </button>
 
       {open ? (
-        <div className="absolute left-0 top-[calc(100%+0.5rem)] z-30 w-full overflow-hidden rounded-[1rem] border border-white/12 bg-[#0D3550] shadow-[0_24px_48px_rgba(5,19,27,0.28)]">
+        <div className="absolute left-0 top-[calc(100%+0.5rem)] z-[80] w-full overflow-hidden rounded-[1rem] border border-white/12 bg-[#0D3550] shadow-[0_24px_48px_rgba(5,19,27,0.28)]">
           <div className="max-h-72 overflow-y-auto p-2">
             {options.map((option) => {
               const active = selectedValues.includes(option.value);
@@ -145,10 +146,10 @@ export function HomeFilterBar() {
   }, [bait, region, species, veidikortid]);
 
   return (
-    <section className="mt-14 rounded-[1.8rem] bg-[#0D3550] px-5 py-5 shadow-[0_28px_60px_rgba(5,19,27,0.16)] sm:px-6 lg:px-7">
+    <section className="relative z-[60] mt-14 rounded-[1.8rem] bg-[#0D3550] px-5 py-5 shadow-[0_28px_60px_rgba(5,19,27,0.16)] sm:px-6 lg:px-7">
       <div className="grid gap-4 xl:grid-cols-[repeat(4,minmax(0,1fr))_auto] xl:items-end">
         <MultiSelect
-          label="Hvað viltu veiða?"
+          label="Hvaða fisktegundir?"
           placeholder="Veldu fisktegundir"
           options={fishOptions}
           selectedValues={species}
@@ -169,8 +170,13 @@ export function HomeFilterBar() {
           onToggle={(value) => toggleValue(region, value, setRegion)}
         />
         <MultiSelect
+<<<<<<< HEAD
           label="Veiðileyfi"
           placeholder="Veldu söluaðila eða leyfi"
+=======
+          label="Staða í Veiðikortinu"
+          placeholder="Veldu stöðu í Veiðikortinu"
+>>>>>>> de5dc40 (Add Mapbox map, photo hero, fix spot metadata and GPS coordinates)
           options={permitOptions}
           selectedValues={veidikortid}
           onToggle={(value) => toggleValue(veidikortid, value, setVeidikortid)}

@@ -1,5 +1,8 @@
 import { fetchJson } from "../fetch";
 import {
+  buildListingDescription,
+  cleanDailyHoursText,
+  cleanSeasonText,
   extractLabeledValue,
   inferAllowedBaits,
   inferConfidence,
@@ -68,9 +71,7 @@ function extractBlocks(html: string): VeidikortidBlock[] {
     const name = stripHtml(match[4] ?? "");
     const descriptionHtml = match[5]?.trim() ?? "";
 
-    if (!href || !name) {
-      continue;
-    }
+    if (!href || !name) continue;
 
     const slug = href
       .replace(/^https?:\/\/[^/]+\//, "")
@@ -78,27 +79,16 @@ function extractBlocks(html: string): VeidikortidBlock[] {
       .filter(Boolean)
       .at(-1);
 
-    if (!slug) {
-      continue;
-    }
+    if (!slug) continue;
 
-    blocks.push({
-      name,
-      slug,
-      sourceUrl: href,
-      descriptionHtml,
-      imageUrl,
-      imageAlt,
-    });
+    blocks.push({ name, slug, sourceUrl: href, descriptionHtml, imageUrl, imageAlt });
   }
 
   return blocks;
 }
 
 function collapseSectionText(value: string | null): string | null {
-  if (!value) {
-    return null;
-  }
+  if (!value) return null;
 
   const normalized = value
     .split("\n")
@@ -116,20 +106,14 @@ function extractSectionText(html: string, headings: string[]): string | null {
   for (const match of html.matchAll(headingRegex)) {
     const rawTitle = stripHtml(match[2] ?? "");
     const start = match.index ?? 0;
-    matches.push({
-      title: rawTitle,
-      start,
-      end: start + match[0].length,
-    });
+    matches.push({ title: rawTitle, start, end: start + match[0].length });
   }
 
   const wanted = matches.find((entry) =>
     headings.some((heading) => entry.title.localeCompare(heading, "is", { sensitivity: "base" }) === 0),
   );
 
-  if (!wanted) {
-    return null;
-  }
+  if (!wanted) return null;
 
   const next = matches.find((entry) => entry.start > wanted.start);
   const sectionHtml = html.slice(wanted.end, next?.start ?? html.length);
@@ -186,9 +170,11 @@ async function enrichBlockFromDetail(block: VeidikortidBlock): Promise<Veidikort
     return {
       imageUrl: block.imageUrl,
       imageAlt: block.imageAlt ?? block.name,
-      shortDescription: toExcerpt(listingDescriptionText),
-      seasonText: extractLabeledValue(listingDescriptionText, ["Veiðitímabil", "Tímabil"]),
-      dailyHoursText: extractLabeledValue(listingDescriptionText, ["Daglegur veiðitími", "Veiðitími"]),
+      shortDescription: buildListingDescription(block.name, listingDescriptionText, 155),
+      seasonText: cleanSeasonText(extractLabeledValue(listingDescriptionText, ["Veiðitímabil", "Tímabil"])),
+      dailyHoursText: cleanDailyHoursText(
+        extractLabeledValue(listingDescriptionText, ["Daglegur veiðitími", "Veiðitíminn", "Veiðitími"]),
+      ),
       rulesText: null,
       practicalInfoText: null,
       latitude: parseCoordinatePair(listingDescriptionText)?.latitude ?? null,
@@ -225,16 +211,19 @@ async function enrichBlockFromDetail(block: VeidikortidBlock): Promise<Veidikort
   );
 
   const shortDescription =
-    toExcerpt(extractSectionText(detailHtml, ["Upplýsingar um vatnið"])) ??
-    toExcerpt(extractSectionText(detailHtml, ["Veiðisvæðið"])) ??
-    toExcerpt(detailPage.id ? stripHtml(detailHtml) : listingDescriptionText);
+    buildListingDescription(block.name, extractSectionText(detailHtml, ["Upplýsingar um vatnið"]), 155) ??
+    buildListingDescription(block.name, extractSectionText(detailHtml, ["Veiðisvæðið"]), 155) ??
+    toExcerpt(detailText, 155) ??
+    buildListingDescription(block.name, listingDescriptionText, 155);
 
   return {
     imageUrl: media?.source_url ?? block.imageUrl,
     imageAlt: media?.alt_text?.trim() || block.imageAlt || block.name,
     shortDescription,
-    seasonText: extractLabeledValue(detailText, ["Veiðitímabil", "Tímabil"]),
-    dailyHoursText: extractLabeledValue(detailText, ["Daglegur veiðitími", "Veiðitími"]),
+    seasonText: cleanSeasonText(extractLabeledValue(detailText, ["Veiðitímabil", "Tímabil"])),
+    dailyHoursText: cleanDailyHoursText(
+      extractLabeledValue(detailText, ["Daglegur veiðitími", "Veiðitíminn", "Veiðitími"]),
+    ),
     rulesText,
     practicalInfoText,
     latitude: coordinatePair?.latitude ?? null,
