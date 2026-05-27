@@ -21,7 +21,7 @@ export default function HomePage() {
 
         <div className="relative mx-auto w-full max-w-[128rem]">
           <div className="max-w-5xl">
-            <Badge className="border-white/20 bg-white/10 text-white backdrop-blur-sm">Veiðistaðir á Íslandi</Badge>
+            <Badge tone="light">Veiðistaðir á Íslandi</Badge>
             <p className="mt-8 text-[11px] font-semibold uppercase tracking-[0.28em] text-white/70">
               Veiði á Íslandi, sett fram með skýrum hætti
             </p>
