@@ -170,13 +170,8 @@ export function HomeFilterBar() {
           onToggle={(value) => toggleValue(region, value, setRegion)}
         />
         <MultiSelect
-<<<<<<< HEAD
           label="Veiðileyfi"
           placeholder="Veldu söluaðila eða leyfi"
-=======
-          label="Staða í Veiðikortinu"
-          placeholder="Veldu stöðu í Veiðikortinu"
->>>>>>> de5dc40 (Add Mapbox map, photo hero, fix spot metadata and GPS coordinates)
           options={permitOptions}
           selectedValues={veidikortid}
           onToggle={(value) => toggleValue(veidikortid, value, setVeidikortid)}

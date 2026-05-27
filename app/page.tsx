@@ -65,11 +65,7 @@ export default function HomePage() {
                 Veiðistaðir
               </p>
               <h2 className="mt-2 text-[2rem] font-semibold tracking-tight" style={{ color: homepageText }}>
-<<<<<<< HEAD
                 Byrjaðu á nokkrum völdum veiðistöðum.
-=======
-                Kannaðu valda staði strax.
->>>>>>> de5dc40 (Add Mapbox map, photo hero, fix spot metadata and GPS coordinates)
               </h2>
               <p className="mt-2 text-[15px] leading-7" style={{ color: `${homepageText}C2` }}>
                 Hér sérðu nokkra staði sem gefa góða mynd af úrvalinu. Opnaðu staðasíðu eða farðu í
