@@ -6,11 +6,21 @@ import { HomeFilterBar } from "@/components/home/home-filter-bar";
 import { HomeSearchBar } from "@/components/home/home-search-bar";
 import { Badge } from "@/components/ui/badge";
 import { discoverSpots } from "@/data/discover-spots";
+import { getTopSpotIds } from "@/lib/redis";
 
 const homepageText = "#0D3550";
 
-export default function HomePage() {
-  const featuredSpots = discoverSpots.filter((spot) => spot.imageUrl).slice(0, 4);
+export default async function HomePage() {
+  // Try to get the most-clicked spots; fall back to image spots if Redis is empty
+  const topIds = await getTopSpotIds(4).catch(() => []);
+  const topSpots = topIds
+    .map((id) => discoverSpots.find((s) => s.id === id))
+    .filter(Boolean) as typeof discoverSpots;
+
+  const featuredSpots =
+    topSpots.length >= 4
+      ? topSpots
+      : discoverSpots.filter((spot) => spot.imageUrl).slice(0, 4);
 
   return (
     <main className="bg-white pb-20">

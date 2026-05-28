@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 
 import { SpotCard } from "@/components/discovery/spot-card";
+import { SpotViewTracker } from "@/components/spots/spot-view-tracker";
 import { Badge } from "@/components/ui/badge";
 import { getNearbyDiscoverSpots, getDiscoverSpotBySlug } from "@/data/discover-spots";
 import { getNearbySpots, getSpotBySlug } from "@/data/spots";
@@ -57,6 +58,7 @@ export default async function SpotDetailPage({
 
   return (
     <main className="mx-auto flex w-full max-w-[88rem] flex-col gap-8 px-4 pb-16 pt-6 sm:px-6 lg:px-8">
+      <SpotViewTracker id={spot.id} />
       <Link
         href="/discover"
         className="inline-flex items-center gap-2 text-sm font-medium text-ink/72 transition hover:text-ink"
