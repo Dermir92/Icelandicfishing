@@ -26,6 +26,9 @@ export function AppHeader() {
           <Link className="transition hover:text-[#0D3550]" href="/discover">
             Yfirlit
           </Link>
+          <Link className="transition hover:text-[#0D3550]" href="/about">
+            Um okkur
+          </Link>
         </nav>
 
         <Link
