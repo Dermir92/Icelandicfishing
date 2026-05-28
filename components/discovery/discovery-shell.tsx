@@ -110,7 +110,7 @@ export function DiscoveryShell({
               Finndu rétta veiðistaðinn.
             </h1>
             <p className="max-w-2xl text-[15px] leading-6 text-ink/63">
-              Kortið er aðalverkfærið. Byrjaðu á yfirlitinu, þrengdu leitina með síum og berðu svo saman staðina hér fyrir neðan.
+              Kortið sýnir helstu veiðistaði, þú getur þrengt leitina með síum og borið svo saman staðina hér fyrir neðan.
             </p>
           </div>
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 import { AppHeader } from "@/components/shared/app-header";
+import { CookieBanner } from "@/components/shared/cookie-banner";
 import { SiteFooter } from "@/components/shared/site-footer";
 
 export const metadata: Metadata = {
@@ -24,6 +25,7 @@ export default function RootLayout({
             <AppHeader />
             {children}
             <SiteFooter />
+            <CookieBanner />
           </div>
         </div>
       </body>
