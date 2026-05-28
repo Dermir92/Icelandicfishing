@@ -10,6 +10,7 @@
     "import:spots": "tsx scripts/import-fishing-spots.ts"
   },
   "dependencies": {
+    "@upstash/redis": "^1.38.0",
     "clsx": "latest",
     "leaflet": "latest",
     "lucide-react": "latest",
