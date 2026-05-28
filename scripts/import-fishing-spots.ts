@@ -15,7 +15,15 @@ async function main() {
     importVeidiappidListings(scrapedAt),
   ]);
 
-  const records: ImportedSpotRecord[] = [...veidikortid, ...veida, ...veidiappid].sort((left, right) =>
+  // Keep all Veiðikortið and veida.is spots unchanged.
+  // Only add Veiði Appið spots that don't already exist in the other sources.
+  const existingNames = new Set(
+    [...veidikortid, ...veida].map((s) => s.name.toLowerCase().trim()),
+  );
+  const veidiappidNew = veidiappid.filter((s) => !existingNames.has(s.name.toLowerCase().trim()));
+  const skipped = veidiappid.length - veidiappidNew.length;
+
+  const records: ImportedSpotRecord[] = [...veidikortid, ...veida, ...veidiappidNew].sort((left, right) =>
     left.sourceName === right.sourceName
       ? left.name.localeCompare(right.name, "is")
       : left.sourceName.localeCompare(right.sourceName, "is"),
@@ -30,7 +38,7 @@ async function main() {
   console.log(`Imported ${records.length} records to ${targetFile}`);
   console.log(`- Veiðikortið: ${veidikortid.length}`);
   console.log(`- veida.is: ${veida.length}`);
-  console.log(`- Veiði Appið: ${veidiappid.length}`);
+  console.log(`- Veiði Appið: ${veidiappidNew.length} nýir (${skipped} tvífarningar sleppt)`);
 }
 
 main().catch((error: unknown) => {
