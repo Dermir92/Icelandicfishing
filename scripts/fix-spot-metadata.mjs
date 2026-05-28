@@ -15,6 +15,12 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_FILE = path.join(__dirname, "../data/imported-spots.json");
 
 // ── Region from coordinates ──────────────────────────────────────────────────
+// Manual overrides for spots that are hard to classify by bounding box alone
+const REGION_OVERRIDES = {
+  "veidikortid:hagavik": "Suðurland",
+  "veidikortid:thingvallavatn": "Suðurland",
+};
+
 function regionFromCoords(lat, lon) {
   if (lat == null || lon == null) return null;
 
@@ -24,11 +30,11 @@ function regionFromCoords(lat, lon) {
   // Vesturland — Snæfellsnes and Borgarfjörður
   if (lon < -20.5 && lat > 64.35 && lat < 65.8) return "Vesturland";
 
+  // Suðvesturland — Reykjanes peninsula (checked before capital area; lat up to 64.0)
+  if (lon < -21.8 && lat <= 64.0) return "Suðvesturland";
+
   // Höfuðborgarsvæðið — Reykjavík metro area (incl. Hafnarfjörður, Mosfellsbær)
   if (lon < -21.05 && lat > 63.85 && lat < 64.45) return "Höfuðborgarsvæðið";
-
-  // Suðvesturland — Reykjanes peninsula (south of capital area)
-  if (lon < -21.8 && lat <= 63.85) return "Suðvesturland";
 
   // Norðurland — north coast (Akureyri and east towards Mývatn)
   if (lat > 64.8) return "Norðurland";
@@ -66,8 +72,10 @@ let regionFixed = 0;
 let waterTypeFixed = 0;
 
 const updated = spots.map((spot) => {
-  const newRegion = regionFromCoords(spot.latitude, spot.longitude) ?? spot.region;
-  const newWaterType = waterTypeFromName(spot.name) ?? spot.waterType;
+  // veidiappid.is provides reliable region and waterType — trust their data
+  const isVeidiappid = spot.id?.startsWith("veidiappid:");
+  const newRegion = REGION_OVERRIDES[spot.id] ?? (isVeidiappid ? spot.region : regionFromCoords(spot.latitude, spot.longitude) ?? spot.region);
+  const newWaterType = isVeidiappid ? spot.waterType : (waterTypeFromName(spot.name) ?? spot.waterType);
 
   if (newRegion !== spot.region) regionFixed++;
   if (newWaterType !== spot.waterType) waterTypeFixed++;

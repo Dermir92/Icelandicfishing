@@ -26,7 +26,7 @@ export type ImportedPermitModel = (typeof IMPORT_PERMIT_MODELS)[number];
 
 export interface ImportedSpotRecord {
   id: string;
-  sourceName: "Veiðikortið" | "veida.is";
+  sourceName: "Veiðikortið" | "veida.is" | "Veiði Appið";
   sourceUrl: string;
   name: string;
   slug: string;
