@@ -1273,7 +1273,7 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2025/06/DXT26578Toppmynd.jpg",
     "imageAlt": "Hagavík við Þingvallavatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Suðurland",
+    "region": "Höfuðborgarsvæðið",
     "waterType": "vatn",
     "species": [
       "bleikja",
@@ -1688,7 +1688,7 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2024/03/featuredItem350x175pix.jpg",
     "imageAlt": "Leirvogsvatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Suðurland",
+    "region": "Höfuðborgarsvæðið",
     "waterType": "vatn",
     "species": [
       "bleikja",
@@ -2135,7 +2135,7 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/09/FL_vifo.jpg",
     "imageAlt": "Vífilsstaðavatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Suðurland",
+    "region": "Höfuðborgarsvæðið",
     "waterType": "vatn",
     "species": [
       "bleikja",
@@ -2164,7 +2164,7 @@
     "imageUrl": "https://veidikortid.is/wp-content/uploads/2021/09/FL_thingv.jpg",
     "imageAlt": "Þingvallavatn",
     "imageSource": "Veiðikortið page image",
-    "region": "Suðurland",
+    "region": "Höfuðborgarsvæðið",
     "waterType": "vatn",
     "species": [
       "lax",

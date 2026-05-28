@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 
 import { SpotCard } from "@/components/discovery/spot-card";
 import { HomeFilterBar } from "@/components/home/home-filter-bar";
+import { HomeSearchBar } from "@/components/home/home-search-bar";
 import { Badge } from "@/components/ui/badge";
 import { discoverSpots } from "@/data/discover-spots";
 
@@ -33,19 +34,21 @@ export default function HomePage() {
               þú átt að fara án þess að hoppa á milli mismunandi vefsíða.
             </p>
 
-            <div className="mt-9 flex flex-wrap items-center gap-3">
+            <HomeSearchBar />
+
+            <div className="mt-6 flex flex-wrap items-center gap-3">
               <Link
                 href="/discover"
                 className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3.5 text-sm font-semibold text-ink shadow-[0_18px_40px_rgba(0,0,0,0.25)] transition hover:bg-white/90"
               >
-                Opna Íslandsyfirlit
+                Opna Íslandskort
                 <ArrowRight className="h-4 w-4" />
               </Link>
               <Link
                 href="/about"
                 className="inline-flex items-center gap-2 rounded-full border border-white/30 bg-white/10 px-5 py-3.5 text-sm font-semibold text-white backdrop-blur-sm transition hover:bg-white/20"
               >
-                Hvernig þetta virkar
+                Hvernig virkar þetta?
               </Link>
             </div>
           </div>

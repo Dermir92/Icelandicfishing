@@ -24,8 +24,8 @@ function regionFromCoords(lat, lon) {
   // Vesturland — Snæfellsnes and Borgarfjörður
   if (lon < -20.5 && lat > 64.35 && lat < 65.8) return "Vesturland";
 
-  // Höfuðborgarsvæðið — Reykjavík metro area
-  if (lon < -21.5 && lat > 63.85 && lat < 64.35) return "Höfuðborgarsvæðið";
+  // Höfuðborgarsvæðið — Reykjavík metro area (incl. Hafnarfjörður, Mosfellsbær)
+  if (lon < -21.05 && lat > 63.85 && lat < 64.45) return "Höfuðborgarsvæðið";
 
   // Suðvesturland — Reykjanes peninsula (south of capital area)
   if (lon < -21.8 && lat <= 63.85) return "Suðvesturland";
