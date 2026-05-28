@@ -78,7 +78,7 @@ export default async function HomePage() {
                 Veiðistaðir
               </p>
               <h2 className="mt-2 text-[2rem] font-semibold tracking-tight" style={{ color: homepageText }}>
-                Byrjaðu á nokkrum völdum veiðistöðum.
+                Vinsælir veiðistaðir
               </h2>
               <p className="mt-2 text-[15px] leading-7" style={{ color: `${homepageText}C2` }}>
                 Hér sérðu nokkra staði sem gefa góða mynd af úrvalinu. Opnaðu staðasíðu eða farðu í
