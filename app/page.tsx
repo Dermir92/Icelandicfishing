@@ -22,6 +22,8 @@ export default async function HomePage() {
       ? topSpots
       : discoverSpots.filter((spot) => spot.imageUrl).slice(0, 4);
 
+  const spotSuggestions = discoverSpots.map((s) => ({ name: s.name, slug: s.slug }));
+
   return (
     <main className="bg-white pb-20">
       <section
@@ -44,7 +46,7 @@ export default async function HomePage() {
               þú átt að fara án þess að hoppa á milli mismunandi vefsíða.
             </p>
 
-            <HomeSearchBar />
+            <HomeSearchBar spots={spotSuggestions} />
 
             <div className="mt-6 flex flex-wrap items-center gap-3">
               <Link
