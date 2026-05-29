@@ -21,6 +21,11 @@ const REGION_OVERRIDES = {
   "veidikortid:thingvallavatn": "Suðurland",
 };
 
+// Coordinate overrides for spots where the source has wrong GPS data
+const COORDINATE_OVERRIDES = {
+  "veidikortid:thingvallavatn": { latitude: 64.18, longitude: -21.13 },
+};
+
 function regionFromCoords(lat, lon) {
   if (lat == null || lon == null) return null;
 
@@ -80,7 +85,13 @@ const updated = spots.map((spot) => {
   if (newRegion !== spot.region) regionFixed++;
   if (newWaterType !== spot.waterType) waterTypeFixed++;
 
-  return { ...spot, region: newRegion, waterType: newWaterType };
+  const coordOverride = COORDINATE_OVERRIDES[spot.id];
+  return {
+    ...spot,
+    region: newRegion,
+    waterType: newWaterType,
+    ...(coordOverride ?? {}),
+  };
 });
 
 await writeFile(DATA_FILE, `${JSON.stringify(updated, null, 2)}\n`, "utf8");
