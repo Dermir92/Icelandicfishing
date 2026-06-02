@@ -10,6 +10,10 @@ const TOKEN = process.env.NEXT_PUBLIC_MAPBOX_TOKEN ?? "";
 const ICELAND_CENTER: [number, number] = [-18.5, 64.9];
 const ICELAND_ZOOM = 5.8;
 
+function escapeHtml(str: string): string {
+  return str.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
+}
+
 function createMarkerEl(label: string): { outer: HTMLDivElement; inner: HTMLDivElement } {
   // outer: fixed 30x30 size — Mapbox applies its translate() transform here
   const outer = document.createElement("div");
@@ -156,8 +160,8 @@ export function MapView({
         })
           .setHTML(
             `<div style="font-family:system-ui,sans-serif;padding:2px 0">
-              <div style="font-weight:700;font-size:13px;color:#12343B;line-height:1.3">${spot.name}</div>
-              <div style="font-size:11px;color:rgba(18,52,59,0.6);margin-top:3px">${spot.region} · ${spot.waterType}</div>
+              <div style="font-weight:700;font-size:13px;color:#12343B;line-height:1.3">${escapeHtml(spot.name)}</div>
+              <div style="font-size:11px;color:rgba(18,52,59,0.6);margin-top:3px">${escapeHtml(spot.region)} · ${escapeHtml(spot.waterType)}</div>
             </div>`,
           )
           .setLngLat(entry.marker.getLngLat())

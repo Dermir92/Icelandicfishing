@@ -12,6 +12,7 @@ export async function incrementSpotView(id: string): Promise<void> {
 }
 
 export async function getTopSpotIds(count = 4): Promise<string[]> {
+  if (count <= 0) return [];
   const results = await redis.zrange(SPOT_VIEWS_KEY, 0, count - 1, { rev: true });
   return results as string[];
 }

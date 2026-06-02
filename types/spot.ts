@@ -23,7 +23,7 @@ export const FISH_SPECIES = [
 export const BAIT_TYPES = ["fluga", "spúnn", "maðkur", "óstaðfest"] as const;
 
 export const PERMIT_MODELS = ["Veiðikortið", "Stakt leyfi", "Óstaðfest"] as const;
-export const SOURCE_NAMES = ["Veiðikortið", "veida.is"] as const;
+export const SOURCE_NAMES = ["Veiðikortið", "veida.is", "Veiði Appið"] as const;
 
 export const ACCESS_LEVELS = ["auðvelt", "miðlungs", "krefjandi", "óstaðfest"] as const;
 

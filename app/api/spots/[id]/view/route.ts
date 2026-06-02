@@ -8,6 +8,10 @@ export async function POST(
   const { id } = await params;
   if (!id) return NextResponse.json({ error: "Missing id" }, { status: 400 });
 
-  await incrementSpotView(id);
+  try {
+    await incrementSpotView(id);
+  } catch {
+    // Non-critical — don't fail the request if Redis is unavailable
+  }
   return NextResponse.json({ ok: true });
 }
